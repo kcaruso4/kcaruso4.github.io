@@ -1,59 +1,59 @@
-,iso_code,region_group,income_group,country,year,Sex,rlevel2_m,rlevel2_m_prop_of_total
-37888,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Female,0.2768,0.1384
-37889,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Male,0.1507,0.07535
-70185,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Female,0.9034,0.4517
-70186,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Male,0.8523,0.42615
-125276,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Female,0.9115,0.45575
-125277,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Male,0.8092,0.4046
-176037,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Male,0.3496,0.1748
-176038,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Female,0.3585,0.17925
-176045,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Male,0.0976,0.0488
-176046,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Female,0.098,0.049
-176289,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Male,0.5801,0.29005
-176290,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Female,0.5591,0.27955
-176297,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Male,0.0908,0.0454
-176298,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Female,0.0768,0.0384
-177446,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Female,0.8459,0.42295
-177447,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Male,0.7576,0.3788
-180549,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Female,0.8219,0.41095
-180550,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Male,0.7528,0.3764
-180555,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Female,0.8204,0.4102
-180556,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Male,0.7156,0.3578
-180559,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Female,0.5452,0.2726
-180560,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Male,0.42,0.21
-180563,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Female,0.8156,0.4078
-180564,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Male,0.717,0.3585
-180567,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Female,0.5199,0.25995
-180568,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Male,0.4812,0.2406
-180569,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Female,0.6128,0.3064
-180570,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Male,0.5471,0.27355
-180577,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Female,0.257,0.1285
-180578,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Male,0.1615,0.08075
-180581,EST,Europe and Northern America,High income countries,Estonia,2018.0,Female,0.9236,0.4618
-180582,EST,Europe and Northern America,High income countries,Estonia,2018.0,Male,0.8554,0.4277
-180587,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Female,0.8578,0.4289
-180588,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Male,0.7943,0.39715
-180591,GRC,Europe and Northern America,High income countries,Greece,2018.0,Female,0.7838,0.3919
-180592,GRC,Europe and Northern America,High income countries,Greece,2018.0,Male,0.6083,0.30415
-180599,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Female,0.3561,0.17805
-180600,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Male,0.244,0.122
-180603,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Female,0.8133,0.40665
-180604,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Male,0.6586,0.3293
-180621,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Female,0.7583,0.37915
-180622,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Male,0.6573,0.32865
-180625,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Female,0.921,0.4605
-180626,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Male,0.8637,0.43185
-180629,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Female,0.6585,0.32925
-180630,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Male,0.4862,0.2431
-180631,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Female,0.583,0.2915
-180632,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Male,0.5206,0.2603
-180641,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Female,0.8122,0.4061
-180642,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Male,0.7063,0.35315
-180647,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Female,0.3868,0.1934
-180648,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Male,0.3265,0.16325
-180671,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Female,0.8922,0.4461
-180672,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Male,0.7536,0.3768
-180679,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Female,0.8114,0.4057
-180680,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Male,0.6775,0.33875
-180681,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Female,0.6323,0.31615
-180682,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Male,0.5255,0.26275
+index_new,iso_code,region_group,income_group,country,year,Sex,rlevel2_m,rlevel2_m_prop_of_total,rlevel2_m_prop_of_total_sum
+42,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Female,0.921,0.4605,0.89235
+43,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Male,0.8637,0.43185,0.89235
+30,EST,Europe and Northern America,High income countries,Estonia,2018.0,Female,0.9236,0.4618,0.8895
+31,EST,Europe and Northern America,High income countries,Estonia,2018.0,Male,0.8554,0.4277,0.8895
+2,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Female,0.9034,0.4517,0.87785
+3,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Male,0.8523,0.42615,0.87785
+4,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Female,0.9115,0.45575,0.86035
+5,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Male,0.8092,0.4046,0.86035
+32,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Female,0.8578,0.4289,0.82605
+33,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Male,0.7943,0.39715,0.82605
+52,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Female,0.8922,0.4461,0.8229
+53,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Male,0.7536,0.3768,0.8229
+14,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Female,0.8459,0.42295,0.80175
+15,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Male,0.7576,0.3788,0.80175
+16,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Female,0.8219,0.41095,0.78735
+17,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Male,0.7528,0.3764,0.78735
+18,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Female,0.8204,0.4102,0.768
+19,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Male,0.7156,0.3578,0.768
+22,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Female,0.8156,0.4078,0.7663
+23,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Male,0.717,0.3585,0.7663
+48,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Female,0.8122,0.4061,0.75925
+49,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Male,0.7063,0.35315,0.75925
+54,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Female,0.8114,0.4057,0.7444500000000001
+55,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Male,0.6775,0.33875,0.7444500000000001
+38,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Female,0.8133,0.40665,0.73595
+39,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Male,0.6586,0.3293,0.73595
+40,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Female,0.7583,0.37915,0.7078
+41,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Male,0.6573,0.32865,0.7078
+34,GRC,Europe and Northern America,High income countries,Greece,2018.0,Female,0.7838,0.3919,0.6960500000000001
+35,GRC,Europe and Northern America,High income countries,Greece,2018.0,Male,0.6083,0.30415,0.6960500000000001
+26,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Female,0.6128,0.3064,0.57995
+27,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Male,0.5471,0.27355,0.57995
+56,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Female,0.6323,0.31615,0.5789
+57,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Male,0.5255,0.26275,0.5789
+44,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Female,0.6585,0.32925,0.57235
+45,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Male,0.4862,0.2431,0.57235
+10,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Male,0.5801,0.29005,0.5696
+11,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Female,0.5591,0.27955,0.5696
+46,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Female,0.583,0.2915,0.5518
+47,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Male,0.5206,0.2603,0.5518
+24,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Female,0.5199,0.25995,0.50055
+25,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Male,0.4812,0.2406,0.50055
+20,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Female,0.5452,0.2726,0.48260000000000003
+21,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Male,0.42,0.21,0.48260000000000003
+50,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Female,0.3868,0.1934,0.35665
+51,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Male,0.3265,0.16325,0.35665
+6,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Male,0.3496,0.1748,0.35405
+7,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Female,0.3585,0.17925,0.35405
+36,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Female,0.3561,0.17805,0.30005000000000004
+37,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Male,0.244,0.122,0.30005000000000004
+0,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Female,0.2768,0.1384,0.21375
+1,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Male,0.1507,0.07535,0.21375
+28,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Female,0.257,0.1285,0.20925
+29,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Male,0.1615,0.08075,0.20925
+8,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Male,0.0976,0.0488,0.0978
+9,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Female,0.098,0.049,0.0978
+12,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Male,0.0908,0.0454,0.0838
+13,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Female,0.0768,0.0384,0.0838
