@@ -390,8 +390,8 @@
             var increment = 0
             income_groups.forEach((group) => {
                 console.log(group)
-                wealthReadingSvg.append("circle").attr("cx",50).attr("cy",230 + increment).attr("r", 6).style("fill", color(group))
-                svg.append("text").attr("x", 50).attr("y", 230 + increment).text(group).style("font-size", "15px").attr("alignment-baseline","middle")
+                wealthReadingSvg.append("circle").attr("cx",100).attr("cy",175 + increment).attr("r", 6).style("fill", color(group))
+                svg.append("text").attr("x", 100).attr("y", 175 + increment).text(group).style("font-size", "15px").attr("alignment-baseline","middle")
                 increment += 20;
             })
         })
