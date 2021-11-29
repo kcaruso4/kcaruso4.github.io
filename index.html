@@ -291,7 +291,7 @@
 
 
         // append the svg object to the body of the page
-        var svg = d3.select("#wealth_reading")
+        var wealthReadingSvg = d3.select("#wealth_reading")
         .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
@@ -325,12 +325,19 @@
             .paddingInner(1)
             .paddingOuter(.5)
 
-            svg.append("g")
+            wealthReadingSvg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x))
             .selectAll("text")
             .attr("transform", "translate(-10, 0)rotate(-45)")
             .style("text-anchor", "end");
+
+            // y scale
+            var y = d3.scaleLinear()
+            .domain([0,1])
+            .range([height, 0])
+
+            wealthReadingSvg.append("g").call(d3.axisLeft(y))
 
         //     //subgroups 
         //     var subgroups = [0,1]
