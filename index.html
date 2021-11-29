@@ -6,7 +6,11 @@
         Test Landing Page
     </h1>
 
+    <p>This chart is related to sex and the learning achievement in reading (end of lower secondary) </p>
     <div id="sex_reading"></div>
+
+    <p>This chart is related to sex and the lower secondary education completion rate </p>
+    <div id="sex_comp"></div>
       
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
@@ -15,6 +19,17 @@
         var margin = {top: 10, right: 30, bottom: 20, left: 50},
             width = 900 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
+
+        // creating tooltip 
+        var tooltip = d3.select("#sex_reading")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            .style("padding", "10px")
 
         // append the svg object to the body of the page
         var svg = d3.select("#sex_reading")
@@ -67,28 +82,16 @@
             var stackedData = d3.stack()
             .keys(groupId)
             .value(function(d, key) {
-                return d.values[key].rlevel2_m_prop_of_total
+                return d.values[key].comp_lowsec_1524_m_prop_of_total
             })
             (dataAgg)
-
-            // creating tooltip 
-            var tooltip = d3.select("#sex_reading")
-            .append("div")
-            .style("opacity", 0)
-            .attr("class", "tooltip")
-            .style("background-color", "white")
-            .style("border", "solid")
-            .style("border-width", "1px")
-            .style("border-radius", "5px")
-            .style("padding", "10px")
-            .style("z-index", "900")
 
 
             // highlight a specific subgroup when hovered and initalizing a tooltip 
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
-                var subgroupValue = d.data.values[subgroupName].rlevel2_m_prop_of_total;
+                var subgroupValue = d.data.values[subgroupName].comp_lowsec_1524_m_prop_of_total;
                 tooltip
                 .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1)
@@ -133,5 +136,129 @@
             .on("mouseleave", mouseleave)
         })
     
+    </script>
+
+
+    <script>
+        var margin = {top: 10, right: 30, bottom: 20, left: 50},
+            width = 900 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
+
+        // creating tooltip 
+        var tooltip = d3.select("#sex_comp")
+        .append("div")
+        .style("opacity", 0)
+        .attr("class", "tooltip")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("padding", "10px")
+
+        // append the svg object to the body of the page
+        var svg = d3.select("#sex_comp")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        d3.csv("sex_comp.csv", function(data) {
+            //subgroups 
+            var subgroups = [0,1]
+
+            var groups = d3.map(data, function(d) {return (d.country)}).keys()
+
+            // x axis
+            var x = d3.scaleBand()
+            .range([0, width])
+            .domain(groups)
+            .padding([0.2]);
+
+            svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .attr("transform", "translate(-10, 0)rotate(-45)")
+            .style("text-anchor", "end");
+
+        
+            // y axis
+            var y = d3.scaleLinear()
+            .domain([0, 1])
+            .range([height, 0]);
+            svg.append("g")
+            .call(d3.axisLeft(y));
+
+            // color
+            var color = d3.scaleOrdinal()
+            .domain(subgroups)
+            .range(d3.schemeSet2)
+
+            var dataAgg = d3.nest()
+            .key(function(d) {return d.country})
+            .entries(data);
+
+            // stack the data
+            var groups = ["Female", "Male"]
+            var groupId = [0,1]
+            var stackedData = d3.stack()
+            .keys(groupId)
+            .value(function(d, key) {
+                return d.values[key].rlevel2_m_prop_of_total
+            })
+            (dataAgg)
+
+
+            // highlight a specific subgroup when hovered and initalizing a tooltip 
+            var mouseover = function(d) {
+                //which group are we hovering over
+                var subgroupName = d3.select(this.parentNode).datum().key;
+                var subgroupValue = d.data.values[subgroupName].rlevel2_m_prop_of_total;
+                tooltip
+                .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
+                .style("opacity", 1)
+                // //reduce opacity of all other rect to 0.2
+                d3.selectAll(".myRect").style("opacity", 0.2)
+
+                // //highlight all that are in the subgroup with opacity 1
+                d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
+            }
+
+            var mousemove = function(d) {
+                tooltip
+                .style("left", (d3.mouse(this)[0] + 90) + "px") 
+                .style("top", (d3.mouse(this)[1]) + "px")
+            }
+
+            // when no hovering
+            var mouseleave = function(d) {
+                tooltip.style("opacity", 0)
+                d3.selectAll(".myRect").style("opacity", 0.8)
+            }
+
+            //bars
+            svg.append("g")
+            .selectAll("g")
+            .data(stackedData)
+            .enter()
+            .append("g")
+            .attr("fill", function(d) { return color(d.key); })
+            .attr("class", function(d){ 
+                return "myRect " + groups[d.key] })
+            .selectAll("rect")
+            .data(function(d) { return d; })
+            .enter().append("rect")
+                .attr("x", function(d) { return x(d.data.key); })
+                .attr("y", function(d) { return y(d[1]); })
+                .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+                .attr("width",x.bandwidth())
+                .attr("stroke", "grey")
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave)
+        })
+
     </script>
 </html>
