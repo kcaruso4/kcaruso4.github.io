@@ -304,10 +304,17 @@
                 iqr = q3 - q1;
                 min = Math.max( q1 - 1.5 * iqr, 0);
                 max = Math.min(q3 + 1.5 * iqr, 1);
-                return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
+                return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max, income_group: d[0].income_group})
             })
             .entries(data)
             var countries = d3.map(data, function(d) {return (d.country)}).keys()
+            var income_groups = d3.map(data, function(d) {return (d.income_group)}).keys()
+
+            // color 
+            var color = d3.scaleOrdinal()
+            .domain(income_groups)
+            .range(d3.schemeSet2)
+
             // x Scale
             var x = d3.scaleBand()
             .range([0, width])
@@ -336,6 +343,8 @@
             .attr("y2", function(d){return(y(d.value.max))})
             .attr("stroke", "black")
             .style("width", 40)
+
+            console.log(boxData)
             // create rectangle for main box
             var boxWidth = 30
             wealthReadingSvg.selectAll("boxes")
@@ -347,7 +356,8 @@
                 .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
                 .attr("width", boxWidth )
                 .attr("stroke", "black")
-                .style("fill", "#69b3a2")
+                .attr("fill", function(d) {return color(d.value.income_group)})
+                // .style("fill", "#69b3a2")
 
             // // show median
             wealthReadingSvg.selectAll("medainLines")
