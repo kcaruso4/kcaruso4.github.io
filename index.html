@@ -55,7 +55,7 @@
             // color
             var color = d3.scaleOrdinal()
             .domain(subgroups)
-            .range(['#e41a1c','#377eb8'])
+            .range(d3.schemeSet2)
 
             var dataAgg = d3.nest()
             .key(function(d) {return d.country})
@@ -69,19 +69,35 @@
             .value(function(d, key) {
                 return d.values[key].rlevel2_m_prop_of_total
             })
-            .order(d3.stackOrderDescending)
             (dataAgg)
 
-            console.log(stackedData)
+            // highlight a specific subgroup when hovered 
+
+            var mouseover = function(d) {
+                //which group are we hovering over
+                var subgroupName = d3.select(this.parentNode).datum().key;
+                var subgroupValue = d.data[subgroupName];
+
+                //reduce opacity of all other rect to 0.2
+                d3.selectAll(".myRect").style("opacity", 0.2)
+
+                //highlight all that are in the subgroup with opacity 1
+                d3.selectAll("."+subgroupName).style("opacity", 1)
+            }
+
+            // when no hovering
+            var mouseleave = function(d) {
+                d3.selectAll(".myRect").style("opacity", 0.8)
+            }
+
             // //bars
             svg.append("g")
             .selectAll("g")
             .data(stackedData)
             .enter()
             .append("g")
-            .attr("fill", function(d) { 
-                console.log(color(d.key))
-                return color(d.key); })
+            .attr("fill", function(d) { return color(d.key); })
+            .attr("class", function(d){ return "myRect " + d.key })
             .selectAll("rect")
             // enter a second time = loop subgroup per subgroup to add all rectangles
             .data(function(d) { return d; })
@@ -90,6 +106,9 @@
                 .attr("y", function(d) { return y(d[1]); })
                 .attr("height", function(d) { return y(d[0]) - y(d[1]); })
                 .attr("width",x.bandwidth())
+                .attr("stroke", "grey")
+            .on("mouseover", mouseover)
+            .on("mouseleave", mouseleave)
 
         })
     
