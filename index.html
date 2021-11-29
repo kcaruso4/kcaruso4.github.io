@@ -287,7 +287,7 @@
             .attr("transform",
                 "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.csv("sex_reading.csv", function(data) {
+        d3.csv("wealth_reading.csv", function(data) {
 
             // compute quartiles, median, IQR, min, and max for each country
             var boxData = d3.nest()
@@ -306,6 +306,19 @@
             .entries(data)
 
             console.log(boxData)
+
+            var countries = d3.map(data, function(d) {return (d.country)}).keys()
+
+            // x Scale
+            var x = d3.scaleBand()
+            .range([0, width])
+            .domain(countries)
+            .paddingInner(1)
+            .paddingOuter(.5)
+
+            svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
 
         //     //subgroups 
         //     var subgroups = [0,1]
