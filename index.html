@@ -61,7 +61,6 @@
             .key(function(d) {return d.country})
             .entries(data);
 
-            console.log(dataAgg)
             // stack the data
             var groups = ["Female", "Male"]
             var groupId = [0,1]
@@ -74,23 +73,21 @@
             })
             (dataAgg)
 
-            console.log(stackedData)
-
             // //bars
-            // svg.append("g")
-            // .selectAll("g")
-            // .data(stackedData)
-            // .enter()
-            // .append("g")
-            // .attr("fill", function(d) { return color(d.key); })
-            // .selectAll("rect")
-            // // enter a second time = loop subgroup per subgroup to add all rectangles
-            // .data(function(d) { return d; })
-            //  .enter().append("rect")
-            //     .attr("x", function(d) { return x(d.data.group); })
-            //     .attr("y", function(d) { return y(d[1]); })
-            //     .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-            //     .attr("width",x.bandwidth())
+            svg.append("g")
+            .selectAll("g")
+            .data(stackedData)
+            .enter()
+            .append("g")
+            .attr("fill", function(d) { return color(d.key); })
+            .selectAll("rect")
+            // enter a second time = loop subgroup per subgroup to add all rectangles
+            .data(function(d) { return d; })
+             .enter().append("rect")
+                .attr("x", function(d) { return x(d.data.group); })
+                .attr("y", function(d) { return y(d[1]); })
+                .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+                .attr("width",x.bandwidth())
 
         })
     
