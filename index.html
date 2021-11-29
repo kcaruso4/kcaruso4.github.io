@@ -400,5 +400,123 @@
             .style("alignment-baseline", "middle")
         })
 
+
+
+
+        //START OF SECOND WEALTH CHART
+        var wealthCompSvg = d3.select("#wealth_comp")
+        .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+        d3.csv("wealth_comp.csv", function(data) {
+            // compute quartiles, median, IQR, min, and max for each country
+            var boxData = d3.nest()
+            .key(function(d) {return d.country})
+            .rollup(function(d) {
+                q1 = parseFloat(d[0].rlevel2_m);
+                q3 = parseFloat(d[2].rlevel2_m);
+                median = parseFloat(d[1].rlevel2_m);
+                iqr = q3 - q1;
+                min = Math.max( q1 - 1.5 * iqr, 0);
+                max = Math.min(q3 + 1.5 * iqr, 1);
+                return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max, income_group: d[0].income_group})
+            })
+            .entries(data)
+            var countries = d3.map(data, function(d) {return (d.country)}).keys()
+            var income_groups = d3.map(data, function(d) {return (d.income_group)}).keys()
+
+            // color 
+            var color = d3.scaleOrdinal()
+            .domain(income_groups)
+            .range(d3.schemeSet2)
+
+            // x Scale
+            var x = d3.scaleBand()
+            .range([0, width])
+            .domain(countries)
+            .paddingInner(1)
+            .paddingOuter(.5)
+            wealthCompSvg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .attr("transform", "translate(-10, 0)rotate(-45)")
+            .style("text-anchor", "end");
+            // y scale
+            var y = d3.scaleLinear()
+            .domain([0,1])
+            .range([height, 0])
+            wealthCompSvg.append("g").call(d3.axisLeft(y))
+            // show main vertical line
+            wealthCompSvg.selectAll("vertLines")
+            .data(boxData)
+            .enter()
+            .append("line")
+            .attr("x1", function(d){return(x(d.key))})
+            .attr("x2", function(d){return(x(d.key))})
+            .attr("y1", function(d){return(y(d.value.min))})
+            .attr("y2", function(d){return(y(d.value.max))})
+            .attr("stroke", "black")
+            .style("width", 40)
+
+             // highlight a specific subgroup when hovered 
+             var mouseover = function(d) {
+                // //reduce opacity of all other rect to 0.2
+                d3.selectAll(".myBox").style("opacity", 0.2)
+
+                // //highlight all that are in the subgroup with opacity 1
+                d3.selectAll("." + d.value.income_group.replace(/\s+/g, '')).style("opacity", 1)
+            }
+
+            // when no hovering
+            var mouseleave = function(d) {
+                d3.selectAll(".myBox").style("opacity", 0.8)
+            }
+
+            // create rectangle for main box
+            var boxWidth = 30
+            wealthCompSvg.selectAll("boxes")
+            .data(boxData)
+            .enter()
+            .append("rect")
+                .attr("x", function(d){return(x(d.key)-boxWidth/2)})
+                .attr("y", function(d){return(y(d.value.q3))})
+                .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
+                .attr("width", boxWidth )
+                .attr("stroke", "black")
+                .attr("fill", function(d) {return color(d.value.income_group)})
+                .attr("class", function(d) { 
+                    return "myBox " + d.value.income_group.replace(/\s+/g, '') })
+            .on("mouseover", mouseover)
+            .on("mouseleave", mouseleave)
+
+            // // show median
+            wealthCompSvg.selectAll("medainLines")
+            .data(boxData)
+            .enter()
+            .append("line")
+            .attr("x1", function(d){return(x(d.key)-boxWidth/2) })
+            .attr("x2", function(d){return(x(d.key)+boxWidth/2) })
+            .attr("y1", function(d){return(y(d.value.median))})
+            .attr("y2", function(d){return(y(d.value.median))})
+            .attr("stroke", "black")
+            .style("width", 80)
+
+            //legend 
+            wealthCompSvg.selectAll("mylables")
+            .data(income_groups)
+            .enter()
+            .append("text")
+            .attr("x", 20)
+            .attr("y", function(d,i){ return 220 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+            .style("fill", function(d){ return color(d)})
+            .text(function(d){ return d})
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle")
+        })
+
     </script>
 </html>
