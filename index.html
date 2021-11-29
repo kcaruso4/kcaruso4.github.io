@@ -78,12 +78,14 @@
             .data(stackedData)
             .enter()
             .append("g")
-            .attr("fill", function(d) { return color(d.key); })
+            .attr("fill", function(d) { 
+                console.log(color(d.key))
+                return color(d.key); })
             .selectAll("rect")
             // enter a second time = loop subgroup per subgroup to add all rectangles
             .data(function(d) { return d; })
              .enter().append("rect")
-                .attr("x", function(d) { return x(d.data.group); })
+                .attr("x", function(d) { return x(d.data.key); })
                 .attr("y", function(d) { return y(d[1]); })
                 .attr("height", function(d) { return y(d[0]) - y(d[1]); })
                 .attr("width",x.bandwidth())
