@@ -338,27 +338,37 @@
             .data(boxData)
             .enter()
             .append("line")
-            .atter("x1", function(d) { return (x(d.key))})
-            .atter("x2", function(d) { return (x(d.key))})
-            .atter("y1", function(d) { return (y(d.value.min))})
-            .atter("y2", function(d) { return (y(d.value.max))})
+            .attr("x1", function(d){return(x(d.key))})
+            .attr("x2", function(d){return(x(d.key))})
+            .attr("y1", function(d){return(y(d.value.min))})
+            .attr("y2", function(d){return(y(d.value.max))})
             .attr("stroke", "black")
             .style("width", 40)
 
-            // create rectangle for main box
-            var boxWidth = 100
-            wealthReadingSvg.selectAll("boxes")
-            .data(boxData)
-            .enter()
-            .append("rect")
-            .attr("x", function(d){return(x(d.key)-boxWidth/2)})
-            .attr("y", function(d){return(y(d.value.q3))})
-            .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
-            .attr("width", boxWidth )
-            .attr("stroke", "black")
-            .style("fill", "#69b3a2")
+            // // create rectangle for main box
+            // var boxWidth = 100
+            // wealthReadingSvg.selectAll("boxes")
+            // .data(boxData)
+            // .enter()
+            // .append("rect")
+            // .attr("x", function(d){return(x(d.key)-boxWidth/2)})
+            // .attr("y", function(d){return(y(d.value.q3))})
+            // .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
+            // .attr("width", boxWidth )
+            // .attr("stroke", "black")
+            // .style("fill", "#69b3a2")
 
-
+            // // show median
+            // wealthReadingSvg.selectAllj("medainLines")
+            // .data(boxData)
+            // .enter()
+            // .append("line")
+            // .attr("x1", function(d){return(x(d.key)-boxWidth/2) })
+            // .attr("x2", function(d){return(x(d.key)+boxWidth/2) })
+            // .attr("y1", function(d){return(y(d.value.median))})
+            // .attr("y2", function(d){return(y(d.value.median))})
+            // .attr("stroke", "black")
+            // .style("width", 80)
 
         })
 
