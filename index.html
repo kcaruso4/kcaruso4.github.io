@@ -341,7 +341,11 @@
             .attr("x1", function(d){return(x(d.key))})
             .attr("x2", function(d){return(x(d.key))})
             .attr("y1", function(d){return(y(d.value.min))})
-            .attr("y2", function(d){return(y(d.value.max))})
+            .attr("y2", function(d){
+                console.log(d)
+                console.log(d.value.max)
+                return(y(d.value.max))
+                })
             .attr("stroke", "black")
             .style("width", 40)
 
