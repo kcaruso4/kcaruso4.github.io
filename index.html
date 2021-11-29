@@ -302,8 +302,8 @@
                 q3 = parseFloat(d[2].rlevel2_m);
                 median = parseFloat(d[1].rlevel2_m);
                 iqr = q3 - q1;
-                min = q1 - 1.5 * iqr;
-                max = q3 + 1.5 * iqr;
+                min = Math.max(q1 - 1.5 * iqr, 0);
+                max = Math.min(q3 + 1.5 * iqr, 1);
                 return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
             })
             .entries(data)
@@ -332,8 +332,8 @@
             .append("line")
             .attr("x1", function(d){return(x(d.key))})
             .attr("x2", function(d){return(x(d.key))})
-            .attr("y1", function(d){return Math.max(y(d.value.min), 0)})
-            .attr("y2", function(d){return Math.min(y(d.value.max), 1)})
+            .attr("y1", function(d){return(y(d.value.min))})
+            .attr("y2", function(d){return(y(d.value.max))})
             .attr("stroke", "black")
             .style("width", 40)
             // create rectangle for main box
