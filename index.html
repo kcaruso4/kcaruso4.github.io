@@ -248,7 +248,8 @@
             .data(function(d) { 
                 var finalData = [];
                 d.values.forEach(ele => {
-                    finalData.push({key: ele.Sex, value: ele.comp_lowsec_1524_ml})
+                    console.log(ele)
+                    finalData.push({key: ele.Sex, value: ele.comp_lowsec_1524_m})
                 });
                 console.log(finalData)
                 return finalData;
@@ -256,9 +257,7 @@
             .enter().append("rect")
                 .attr("x", function(d) { return xSubgroup(d.key); })
                 .attr("y", function(d) { return y(d.value); })
-                .attr("height", function(d) { console.log(d.value); 
-                console.log(y(d.value));
-                return height - y(d.value); })
+                .attr("height", function(d) { return height - y(d.value); })
                 .attr("width",xSubgroup.bandwidth())
                 .attr("fill", function(d) { return color(d.key); })
             .on("mouseover", mouseover)
