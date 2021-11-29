@@ -90,7 +90,7 @@
                 var subgroupName = d3.select(this.parentNode).datum().key;
                 console.log(d)
                 console.log(subgroupName)
-                var subgroupValue = d[subgroupName];
+                var subgroupValue = d.data.values[subgroupName].rlevel2_m_prop_of_total;
                 tooltip
                 .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1)
@@ -131,9 +131,8 @@
                 .attr("width",x.bandwidth())
                 .attr("stroke", "grey")
             .on("mouseover", mouseover)
-            .on("mouseleave", mouseleave)
             .on("mousemove", mousemove)
-
+            .on("mouseleave", mouseleave)
         })
     
     </script>
