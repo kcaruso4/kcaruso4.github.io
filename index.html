@@ -298,6 +298,7 @@
             var boxData = d3.nest()
             .key(function(d) {return d.country})
             .rollup(function(d) {
+                console.log(d)
                 q1 = parseFloat(d[0].rlevel2_m);
                 q3 = parseFloat(d[2].rlevel2_m);
                 median = parseFloat(d[1].rlevel2_m);
