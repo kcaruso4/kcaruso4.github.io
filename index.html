@@ -156,16 +156,6 @@
                 "translate(" + margin.left + "," + margin.top + ")");
 
         d3.csv("sex_comp.csv", function(data) {
-            // creating tooltip 
-            var tooltipTwo = d3.select("#sex_comp")
-            .append("div")
-            .style("opacity", 0)
-            .attr("class", "tooltip")
-            .style("background-color", "white")
-            .style("border", "solid")
-            .style("border-width", "1px")
-            .style("border-radius", "5px")
-            .style("padding", "10px")
 
             //subgroups 
             var subgroups = ["Female", "Male"]
@@ -216,12 +206,11 @@
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
+                d3.selectAll("."+ subgroupName).style("opacity", 1)
             }
 
             // when no hovering
             var mouseleave = function(d) {
-                // tooltipTwo.style("opacity", 0)
                 d3.selectAll(".mySecondRect").style("opacity", 0.8)
             }
 
@@ -233,7 +222,7 @@
             .append("g")
             .attr("transform", function(d) { console.log(d); return "translate(" + x(d.key) + ",0)"; })
             .attr("class", function(d){ 
-                return "mySecondRect " + groups[d.key] })
+                return "mySecondRect " + d.key })
             .selectAll("rect")
             .data(function(d) { 
                 var finalData = [];
