@@ -260,6 +260,8 @@
                 return "mySecondRect " + groups[d.key] })
             .selectAll("rect")
             .data(function(d) { return subgroups.map(function(key, d) {
+                console.log(key)
+                console.log(d)
                 console.log({key: d.values[key].Sex, value: [d.values[key].comp_lowsec_1524_m_prop_of_total , key]})
                 return {key: d.values[key].Sex, value: [d.values[key].comp_lowsec_1524_m_prop_of_total , key]};
             }); })
