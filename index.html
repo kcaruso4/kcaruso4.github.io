@@ -23,10 +23,13 @@
         .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
 
-
-        // creating tooltip 
-        var tooltip = d3.select("#sex_reading")
+        d3.csv("sex_reading.csv", function(data) {
+             // creating tooltip 
+            var tooltip = d3.select("#sex_reading")
             .append("div")
             .style("opacity", 0)
             .attr("class", "tooltip")
@@ -35,12 +38,6 @@
             .style("border-width", "1px")
             .style("border-radius", "5px")
             .style("padding", "10px")
-
-        svg.append("g")
-            .attr("transform",
-                "translate(" + margin.left + "," + margin.top + ")");
-
-        d3.csv("sex_reading.csv", function(data) {
             //subgroups 
             var subgroups = [0,1]
 
