@@ -207,13 +207,6 @@
 
                 // //highlight all that are in the subgroup with opacity 1
                 d3.selectAll("." + subgroupName).style("opacity", 1)
-
-                var txt = d3.select(this.nextSibling)
-                if (txt.attr('opacity') == 0) {
-                    txt.attr('opacity', '1');
-                } else {
-                    txt.attr('opacity', '0');
-                }
             }
 
             // when no hovering
@@ -244,16 +237,6 @@
                 .attr("height", function(d) { return height - y(d.value); })
                 .attr("width",xSubgroup.bandwidth())
                 .attr("fill", function(d) { return color(d.key); })
-            .append("txt")
-            .attr("x", function(d) { return xSubgroup(d.key); })
-            .attr("y", function(d) { return y(d.value) + 2 ; })
-            .attr("dy", "1em")
-            .attr("text-anchor", "middle")
-            .attr("font-size", "16px")
-            .attr("fill", "orange")
-            .attr("opacity", '0')
-            .attr("transform", function(d) { return "translate(20, -20)"; })
-            .text(function(d) { return d.value; })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
         })
