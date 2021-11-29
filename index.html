@@ -26,11 +26,16 @@
                 "translate(" + margin.left + "," + margin.top + ")");
 
         d3.csv("sex_reading.csv", function(data) {
+            //subgroups 
+            var subgroups = 2
+
+            var groups = d3.map(data, function(d) {return (d.country)}).keys()
+
             // x axis
             var x = d3.scaleBand()
             .range([0, width])
-            .domain(data.map(function(d) {return d.country; }))
-            .padding(0.2);
+            .domain(groups)
+            .padding([0.2]);
 
             svg.append("g")
             .attr("transform", "translate(0," + height + ")")
@@ -47,16 +52,35 @@
             svg.append("g")
             .call(d3.axisLeft(y));
 
+            // color
+            var color = d3.scaleOrdinal()
+            .domain(subgroups)
+            .range(['#e41a1c','#377eb8'])
+
+            // stack the data
+            var stackedData = d3.stack()
+            .keys(data.country)
+            .value(data.rlevel2_m_prop_of_total)
+            .order(d3.stackOrderDescending)
+            .offset(d3.stackOffsetNone);
+
+            console.log(stackedData)
+
             //bars
-            svg.selectAll("mybar")
-            .data(data)
+            svg.append("g")
+            .selectAll("g")
+            .data(stackedData)
             .enter()
-            .append("rect")
-            .attr("x", function(d) { return x(d.country); })
-            .attr("y", function(d) { return y(d.rlevel2_m_prop_of_total); })
-            .attr("width", x.bandwidth())
-            .attr("height", function(d) { return height - y(d.rlevel2_m_prop_of_total); })
-            .attr("fill", "#69b3a2")
+            .append("g")
+            .attr("fill", function(d) { return color(d.key); })
+            .selectAll("rect")
+            // enter a second time = loop subgroup per subgroup to add all rectangles
+            .data(function(d) { return d; })
+             .enter().append("rect")
+                .attr("x", function(d) { return x(d.data.group); })
+                .attr("y", function(d) { return y(d[1]); })
+                .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+                .attr("width",x.bandwidth())
 
         })
     
