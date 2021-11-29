@@ -259,9 +259,13 @@
             .attr("class", function(d){ 
                 return "mySecondRect " + groups[d.key] })
             .selectAll("rect")
-            .data(function(d) { console.log(d); return subgroups.map(function(key, d) {
-                console.log({key: d.values[key].Sex, value: [d.values[key].comp_lowsec_1524_m_prop_of_total , key]})
-                return {key: d.values[key].Sex, value: [d.values[key].comp_lowsec_1524_m_prop_of_total , key]};
+            .data(function(d) { 
+                var finalData = [];
+                d.values.forEach(ele => {
+                    finalData.push({key: ele.Sex, value: ele.comp_lowsec_1524_m_prop_of_total})
+                });
+                console.log(finalData);
+                return finalData;
             }); })
             .enter().append("rect")
                 .attr("x", function(d) { return xSubgroup(d.key); })
