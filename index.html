@@ -52,10 +52,10 @@
             .data(data)
             .enter()
             .append("rect")
-            .attr("x", function(d) { return x(d.Country); })
-            .attr("y", function(d) { return y(d.Value); })
+            .attr("x", function(d) { return x(d.country); })
+            .attr("y", function(d) { return y(d.rlevel2_m_prop_of_total); })
             .attr("width", x.bandwidth())
-            .attr("height", function(d) { return height - y(d.Value); })
+            .attr("height", function(d) { return height - y(d.rlevel2_m_prop_of_total); })
             .attr("fill", "#69b3a2")
 
         })
