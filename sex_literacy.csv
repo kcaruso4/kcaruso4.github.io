@@ -1,0 +1,59 @@
+,iso_code,region_group,income_group,country,year,category,Sex,Location,Wealth,comp_lowsec_1524_m,comp_lowsec_1524_no,literacy_1524_m,literacy_1524_no,rlevel4_m,rlevel2_m
+37888,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Sex,Female,,,,,,,,0.2768
+37889,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Sex,Male,,,,,,,,0.1507
+70185,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Sex,Female,,,,,,,0.4352,0.9034
+70186,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Sex,Male,,,,,,,0.3054,0.8523
+125276,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Sex,Female,,,,,,,0.2167,0.9115
+125277,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Sex,Male,,,,,,,0.1508,0.8092
+176037,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Sex,Male,,,,,,,,0.3496
+176038,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Sex,Female,,,,,,,,0.3585
+176045,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Sex,Male,,,,,,,,0.0976
+176046,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Sex,Female,,,,,,,,0.098
+176289,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Sex,Male,,,,,,,,0.5801
+176290,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Sex,Female,,,,,,,,0.5591
+176297,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Sex,Male,,,,,,,,0.0908
+176298,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Sex,Female,,,,,,,,0.0768
+177446,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Sex,Female,,,,,,,0.2587,0.8459
+177447,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Sex,Male,,,,,,,0.2184,0.7576
+180549,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Sex,Female,,,,,,,0.3292,0.8219
+180550,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Sex,Male,,,,,,,0.2688,0.7528
+180555,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Sex,Female,,,,,,,0.2218,0.8204
+180556,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Sex,Male,,,,,,,0.1783,0.7156
+180559,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Sex,Female,,,,,,,0.0944,0.5452
+180560,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Sex,Male,,,,,,,0.0707,0.42
+180563,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Sex,Female,,,,,,,0.3106,0.8156
+180564,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Sex,Male,,,,,,,0.2261,0.717
+180567,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Sex,Female,,,,,,,0.067,0.5199
+180568,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Sex,Male,,,,,,,0.0654,0.4812
+180569,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Sex,Female,,,,,,,0.0705,0.6128
+180570,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Sex,Male,,,,,,,0.0592,0.5471
+180577,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Sex,Female,,,,,,,0.0128,0.257
+180578,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Sex,Male,,,,,,,,0.1615
+180581,EST,Europe and Northern America,High income countries,Estonia,2018.0,Sex,Female,,,,,,,0.4415,0.9236
+180582,EST,Europe and Northern America,High income countries,Estonia,2018.0,Sex,Male,,,,,,,0.3164,0.8554
+180587,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Sex,Female,,,,,,,0.3539,0.8578
+180588,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Sex,Male,,,,,,,0.2943,0.7943
+180591,GRC,Europe and Northern America,High income countries,Greece,2018.0,Sex,Female,,,,,,,0.2131,0.7838
+180592,GRC,Europe and Northern America,High income countries,Greece,2018.0,Sex,Male,,,,,,,0.1278,0.6083
+180599,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Sex,Female,,,,,,,0.014,0.3561
+180600,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Sex,Male,,,,,,,0.009,0.244
+180603,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Sex,Female,,,,,,,0.2873,0.8133
+180604,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Sex,Male,,,,,,,0.1913,0.6586
+180621,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Sex,Female,,,,,,,0.2705,0.7583
+180622,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Sex,Male,,,,,,,0.2015,0.6573
+180625,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Sex,Female,,,,,,,0.4381,0.921
+180626,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Sex,Male,,,,,,,0.3613,0.8637
+180629,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Sex,Female,,,,,,,0.1059,0.6585
+180630,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Sex,Male,,,,,,,0.0597,0.4862
+180631,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Sex,Female,,,,,,,0.0668,0.583
+180632,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Sex,Male,,,,,,,0.055,0.5206
+180641,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Sex,Female,,,,,,,0.3124,0.8122
+180642,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Sex,Male,,,,,,,0.2454,0.7063
+180647,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Sex,Female,,,,,,,0.0279,0.3868
+180648,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Sex,Male,,,,,,,0.0278,0.3265
+180671,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Sex,Female,,,,,,,0.346,0.8922
+180672,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Sex,Male,,,,,,,0.2182,0.7536
+180679,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Sex,Female,,,,,,,0.2176,0.8114
+180680,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Sex,Male,,,,,,,0.144,0.6775
+180681,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Sex,Female,,,,,,,0.1105,0.6323
+180682,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Sex,Male,,,,,,,0.0861,0.5255

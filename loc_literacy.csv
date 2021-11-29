@@ -1,0 +1,56 @@
+,iso_code,region_group,income_group,country,year,category,Sex,Location,Wealth,comp_lowsec_1524_m,comp_lowsec_1524_no,literacy_1524_m,literacy_1524_no,rlevel4_m,rlevel2_m
+37848,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Location,,Rural,,,,,,,0.191
+37849,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Location,,Urban,,,,,,,0.2083
+125236,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Location,,Rural,,,,,,0.1383,0.8306
+125237,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Location,,Urban,,,,,,0.215,0.8808
+176076,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Location,,Urban,,,,,,,0.4692
+176077,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Location,,Rural,,,,,,,0.2358
+176084,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Location,,Urban,,,,,,,0.2284
+176085,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Location,,Rural,,,,,,,0.0685
+176329,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Location,,Urban,,,,,,,0.7111
+176330,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Location,,Rural,,,,,,,0.4521
+176337,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Location,,Urban,,,,,,,0.2503
+176338,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Location,,Rural,,,,,,,0.0416
+177517,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Location,,Urban,,,,,,0.2629,0.8274
+177518,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Location,,Rural,,,,,,,0.6905
+180841,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Location,,Rural,,,,,,0.3223,0.8616
+180842,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Location,,Urban,,,,,,0.2966,0.7862
+180847,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Location,,Rural,,,,,,0.0876,0.5994
+180848,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Location,,Urban,,,,,,0.2217,0.7996
+180851,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Location,,Rural,,,,,,,0.3978
+180852,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Location,,Urban,,,,,,0.0924,0.495
+180855,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Location,,Rural,,,,,,0.1746,0.7614
+180856,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Location,,Urban,,,,,,0.2751,0.766
+180859,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Location,,Rural,,,,,,,0.2957
+180860,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Location,,Urban,,,,,,0.0733,0.5311
+180861,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Location,,Rural,,,,,,,0.3957
+180862,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Location,,Urban,,,,,,0.079,0.6309
+180869,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Location,,Rural,,,,,,,0.0845
+180870,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Location,,Urban,,,,,,0.0117,0.2331
+180873,EST,Europe and Northern America,High income countries,Estonia,2018.0,Location,,Rural,,,,,,0.3568,0.8684
+180874,EST,Europe and Northern America,High income countries,Estonia,2018.0,Location,,Urban,,,,,,0.3855,0.8958
+180879,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Location,,Rural,,,,,,0.3251,0.8496
+180880,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Location,,Urban,,,,,,0.3342,0.8308
+180883,GRC,Europe and Northern America,High income countries,Greece,2018.0,Location,,Rural,,,,,,0.0879,0.5425
+180884,GRC,Europe and Northern America,High income countries,Greece,2018.0,Location,,Urban,,,,,,0.1784,0.711
+180890,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Location,,Rural,,,,,,,0.1923
+180891,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Location,,Urban,,,,,,0.0151,0.3457
+180894,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Location,,Rural,,,,,,0.1786,0.7044
+180895,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Location,,Urban,,,,,,0.2446,0.7377
+180911,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Location,,Urban,,,,,,0.2355,0.7071
+180914,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Location,,Urban,,,,,,0.3997,0.8922
+180917,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Location,,Rural,,,,,,0.0238,0.4214
+180918,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Location,,Urban,,,,,,0.1333,0.7002
+180919,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Location,,Rural,,,,,,,0.2671
+180920,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Location,,Urban,,,,,,0.0722,0.614
+180927,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Location,,Rural,,,,,,,0.4388
+180928,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Location,,Urban,,,,,,0.2925,0.7745
+180931,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Location,,Rural,,,,,,,0.1562
+180932,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Location,,Urban,,,,,,0.0302,0.3907
+180953,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Location,,Rural,,,,,,0.2527,0.7878
+180954,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Location,,Urban,,,,,,0.2901,0.83
+180959,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Location,,Rural,,,,,,0.0737,0.5756
+180960,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Location,,Urban,,,,,,0.2013,0.7775
+180961,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Location,,Rural,,,,,,,0.4505
+180962,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Location,,Urban,,,,,,0.1007,0.5879
+191106,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Location,,Urban,,,,,,0.3662,0.8762
