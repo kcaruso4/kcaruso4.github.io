@@ -322,9 +322,9 @@
             wealthReadingSvg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x))
-            // .selectAll("text")
-            // .attr("transform", "translate(-10, 0)rotate(-45)")
-            // .style("text-anchor", "end");
+            .selectAll("text")
+            .attr("transform", "translate(-10, 0)rotate(-45)")
+            .style("text-anchor", "end");
 
             // y scale
             var y = d3.scaleLinear()
@@ -341,26 +341,22 @@
             .attr("x1", function(d){return(x(d.key))})
             .attr("x2", function(d){return(x(d.key))})
             .attr("y1", function(d){return(y(d.value.min))})
-            .attr("y2", function(d){
-                console.log(d)
-                console.log(d.value.max)
-                return(y(d.value.max))
-                })
+            .attr("y2", function(d){ return(y(d.value.max)) })
             .attr("stroke", "black")
             .style("width", 40)
 
-            // // create rectangle for main box
-            // var boxWidth = 100
-            // wealthReadingSvg.selectAll("boxes")
-            // .data(boxData)
-            // .enter()
-            // .append("rect")
-            // .attr("x", function(d){return(x(d.key)-boxWidth/2)})
-            // .attr("y", function(d){return(y(d.value.q3))})
-            // .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
-            // .attr("width", boxWidth )
-            // .attr("stroke", "black")
-            // .style("fill", "#69b3a2")
+            // create rectangle for main box
+            var boxWidth = 100
+            wealthReadingSvg.selectAll("boxes")
+            .data(boxData)
+            .enter()
+            .append("rect")
+            .attr("x", function(d){return(x(d.key)-boxWidth/2)})
+            .attr("y", function(d){return(y(d.value.q3))})
+            .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
+            .attr("width", boxWidth )
+            .attr("stroke", "black")
+            .style("fill", "#69b3a2")
 
             // // show median
             // wealthReadingSvg.selectAllj("medainLines")
