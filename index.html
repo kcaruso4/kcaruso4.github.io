@@ -72,11 +72,26 @@
             })
             (dataAgg)
 
-            // highlight a specific subgroup when hovered 
+            // creating tooltip 
+            var tooltip = d3.select("#sex_reading")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            .style("padding", "10px")
 
+
+            // highlight a specific subgroup when hovered and initalizing a tooltip 
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
+                var subgroupValue = d.data[subgroupName];
+                tooltip
+                .html("subgroup: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
+                .style("opacity", 1)
                 //reduce opacity of all other rect to 0.2
                 d3.selectAll(".myRect").style("opacity", 0.2)
 
@@ -84,12 +99,19 @@
                 d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
             }
 
+            var mousemove = function(d) {
+                tooltip
+                .style("left", (d3.mouse(this)[0]+90) + "px") 
+                .style("top", (d3.mouse(this)[1]) + "px")
+            }
+
             // when no hovering
             var mouseleave = function(d) {
+                tooltip.style("opacity", 0)
                 d3.selectAll(".myRect").style("opacity", 0.8)
             }
 
-            // //bars
+            //bars
             svg.append("g")
             .selectAll("g")
             .data(stackedData)
@@ -99,7 +121,6 @@
             .attr("class", function(d){ 
                 return "myRect " + groups[d.key] })
             .selectAll("rect")
-            // enter a second time = loop subgroup per subgroup to add all rectangles
             .data(function(d) { return d; })
              .enter().append("rect")
                 .attr("x", function(d) { return x(d.data.key); })
