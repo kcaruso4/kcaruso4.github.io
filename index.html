@@ -332,8 +332,8 @@
             .append("line")
             .attr("x1", function(d){return(x(d.key))})
             .attr("x2", function(d){return(x(d.key))})
-            .attr("y1", function(d){return(y(Math.max(d.value.min, 0)))})
-            .attr("y2", function(d){ return(y(Math.min(d.value.max, 1))) })
+            .attr("y1", function(d){return Math.max(y(d.value.min), 0)})
+            .attr("y2", function(d){return Math.min(y(d.value.max), 1)})
             .attr("stroke", "black")
             .style("width", 40)
             // create rectangle for main box
