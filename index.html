@@ -13,7 +13,7 @@
 
     <script>
     var margin = {top: 10, right: 0, bottom: 30, left: 0},
-        width = 10000 - margin.left - margin.right,
+        width = 600 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom; 
 
     var svg = d3.select("#sex_reading")
@@ -27,8 +27,6 @@
     const data = d3.csv("sex_reading.csv", function(data) {
         // Get the names of countries
         var countries = d3.map(data, function(d){ return(d.country)}).keys()
-
-        console.log(countries)
 
         // add X axis
         var x = d3.scaleBand()
