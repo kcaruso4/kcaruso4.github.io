@@ -337,17 +337,17 @@
             .attr("stroke", "black")
             .style("width", 40)
             // create rectangle for main box
-            var boxWidth = 40
-            wealthReadingSvg.selectAll("boxes")
-            .data(boxData)
-            .enter()
-            .append("rect")
-            .attr("x", function(d){return(x(d.key)-boxWidth/2)})
-            .attr("y", function(d){return(y(d.value.q3))})
-            .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
-            .attr("width", boxWidth )
-            .attr("stroke", "black")
-            .style("fill", "#69b3a2")
+            // var boxWidth = 40
+            // wealthReadingSvg.selectAll("boxes")
+            // .data(boxData)
+            // .enter()
+            // .append("rect")
+            // .attr("x", function(d){return(x(d.key)-boxWidth/2)})
+            // .attr("y", function(d){return(y(d.value.q3))})
+            // .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
+            // .attr("width", boxWidth )
+            // .attr("stroke", "black")
+            // .style("fill", "#69b3a2")
 
             // // // show median
             // wealthReadingSvg.selectAll("medainLines")
