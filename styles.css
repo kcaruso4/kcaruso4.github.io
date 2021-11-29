@@ -1,3 +1,7 @@
 .inGreen {
     color: rebeccapurple
 }
+
+div {
+    z-index: 960;
+}
