@@ -393,14 +393,17 @@
             .attr("stroke", "black")
             .style("width", 80)
 
-            //making legend
-            var increment = 0
-            income_groups.forEach((group) => {
-                console.log(group)
-                wealthReadingSvg.append("circle").attr("cx",190).attr("cy",130 + increment).attr("r", 6).style("fill", color(group))
-                wealthReadingSvg.append("text").attr("x", 190).attr("y", 130 + increment).text("variable A").style("font-size", "15px").attr("alignment-baseline","middle")
-                increment += 20;
-            })
+            //legend 
+            wealthReadingSvg.selectAll("mylables")
+            .data(income_groups)
+            .enter()
+            .append("text")
+            .attr("x", 120)
+            .attr("y", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+            .style("fill", function(d){ return color(d)})
+            .text(function(d){ return d})
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle")
         })
 
     </script>
