@@ -57,30 +57,35 @@
             .domain(subgroups)
             .range(['#e41a1c','#377eb8'])
 
+            var dataAgg = d3.nest()
+            .key(function(d) {return d.country})
+            .entries(data);
+
+            console.log(dataAgg)
+
             // stack the data
-            var stackedData = d3.stack()
-            .keys(d3.map(data, function(d) {return (d.country)}).keys())
-            .value(d3.map(data, function(d) {return (d.rlevel2_m_prop_of_total)}).keys())
-            .order(d3.stackOrderDescending)
-            .offset(d3.stackOffsetNone);
+            // var groups = ["Female", "Male"]
+            // var groupId = [1,2]
+            // var stackedData = d3.stack()
+            // .keys(groupId)
 
-            console.log(stackedData)
+            
 
-            //bars
-            svg.append("g")
-            .selectAll("g")
-            .data(stackedData)
-            .enter()
-            .append("g")
-            .attr("fill", function(d) { return color(d.key); })
-            .selectAll("rect")
-            // enter a second time = loop subgroup per subgroup to add all rectangles
-            .data(function(d) { return d; })
-             .enter().append("rect")
-                .attr("x", function(d) { return x(d.data.group); })
-                .attr("y", function(d) { return y(d[1]); })
-                .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-                .attr("width",x.bandwidth())
+            // //bars
+            // svg.append("g")
+            // .selectAll("g")
+            // .data(stackedData)
+            // .enter()
+            // .append("g")
+            // .attr("fill", function(d) { return color(d.key); })
+            // .selectAll("rect")
+            // // enter a second time = loop subgroup per subgroup to add all rectangles
+            // .data(function(d) { return d; })
+            //  .enter().append("rect")
+            //     .attr("x", function(d) { return x(d.data.group); })
+            //     .attr("y", function(d) { return y(d[1]); })
+            //     .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+            //     .attr("width",x.bandwidth())
 
         })
     
