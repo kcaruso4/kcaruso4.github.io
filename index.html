@@ -77,7 +77,6 @@
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
-                console.log(subgroupName)
                 //reduce opacity of all other rect to 0.2
                 d3.selectAll(".myRect").style("opacity", 0.2)
 
@@ -89,8 +88,6 @@
             var mouseleave = function(d) {
                 d3.selectAll(".myRect").style("opacity", 0.8)
             }
-
-            console.log(stackedData)
 
             // //bars
             svg.append("g")
