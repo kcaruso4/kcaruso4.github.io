@@ -342,24 +342,37 @@
             .data(boxData)
             .enter()
             .append("rect")
-            .attr("x", function(d){return(x(d.key)-boxWidth/2)})
-            .attr("y", function(d){return(y(d.value.q3))})
-            .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
+            .attr("x", function(d)
+            {
+                console.log(d.key)
+                console.log(x(d.key)-boxWidth/2)
+                return(x(d.key)-boxWidth/2)
+            }
+            )
+            .attr("y", function(d){
+                console.log(y(d.value.q3))
+                return(y(d.value.q3))
+                })
+            .attr("height", function(d){
+                console.log(y(d.value.q1)-y(d.value.q3))
+                return(y(d.value.q1)-y(d.value.q3))
+                }
+                )
             .attr("width", boxWidth )
             .attr("stroke", "black")
             .style("fill", "#69b3a2")
 
-            // // // show median
-            // wealthReadingSvg.selectAll("medainLines")
-            // .data(boxData)
-            // .enter()
-            // .append("line")
-            // .attr("x1", function(d){return(x(d.key)-boxWidth/2) })
-            // .attr("x2", function(d){return(x(d.key)+boxWidth/2) })
-            // .attr("y1", function(d){return(y(d.value.median))})
-            // .attr("y2", function(d){return(y(d.value.median))})
-            // .attr("stroke", "black")
-            // .style("width", 80)
+            // // show median
+            wealthReadingSvg.selectAll("medainLines")
+            .data(boxData)
+            .enter()
+            .append("line")
+            .attr("x1", function(d){return(x(d.key)-boxWidth/2) })
+            .attr("x2", function(d){return(x(d.key)+boxWidth/2) })
+            .attr("y1", function(d){return(y(d.value.median))})
+            .attr("y2", function(d){return(y(d.value.median))})
+            .attr("stroke", "black")
+            .style("width", 80)
         })
 
     </script>
