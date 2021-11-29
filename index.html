@@ -198,7 +198,7 @@
             .key(function(d) {return d.country})
             .entries(data);
 
-            // highlight a specific subgroup when hovered and initalizing a tooltip 
+            // highlight a specific subgroup when hovered 
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
@@ -206,7 +206,7 @@
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                d3.selectAll("."+ subgroupName).style("opacity", 1)
+                d3.selectAll(subgroupName).style("opacity", 1)
             }
 
             // when no hovering
