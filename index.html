@@ -102,8 +102,26 @@
                 d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
 
                 //add value above bar
-                svg.append("svg:title")
-                .text(subgroupValue)
+                svg.selectAll("text")
+                .data(d)
+                .enter()
+                .append("text")
+                .text(function(d) { return d.data.values[subgroupName].rlevel2_m_prop_of_total})
+                .attr("x", function(d,i){
+                return xScale(i) + xScale.bandwidth() / 2;
+
+                })
+                .attr("y", function(d){
+                return h - yScale(d) + 14 ;
+                })
+
+                .attr("font-family" , "sans-serif")
+
+                .attr("font-size" , "11px")
+
+                .attr("fill" , "white")
+
+                .attr("text-anchor", "middle");
             }
 
             var mousemove = function(d) {
