@@ -193,6 +193,12 @@
             svgTwo.append("g")
             .call(d3.axisLeft(y));
 
+            //scale for sub group position
+            var xSubgroup = d3.scaleBand()
+            .domain(subgroups)
+            .range([0, x.bandwidth()])
+            .padding([0.05])
+
             // color
             var color = d3.scaleOrdinal()
             .domain(subgroups)
@@ -202,15 +208,17 @@
             .key(function(d) {return d.country})
             .entries(data);
 
-            // stack the data
-            var groups = ["Female ", "Male "]
-            var groupId = [0,1]
-            var stackedData = d3.stack()
-            .keys(groupId)
-            .value(function(d, key) {
-                return d.values[key].comp_lowsec_1524_m_prop_of_total
-            })
-            (dataAgg)
+            console.log(dataAgg)
+
+            // // stack the data
+            // var groups = ["Female ", "Male "]
+            // var groupId = [0,1]
+            // var stackedData = d3.stack()
+            // .keys(groupId)
+            // .value(function(d, key) {
+            //     return d.values[key].comp_lowsec_1524_m_prop_of_total
+            // })
+            // (dataAgg)
 
 
             // highlight a specific subgroup when hovered and initalizing a tooltip 
@@ -243,9 +251,11 @@
             //bars
             svgTwo.append("g")
             .selectAll("g")
-            .data(stackedData)
+            .data(dataAgg)
+            // .data(stackedData)
             .enter()
             .append("g")
+            .attr("transform", function(d) { return "translate(" + x(d.group) + ",0)"; })
             .attr("fill", function(d) { return color(d.key); })
             .attr("class", function(d){ 
                 return "mySecondRect " + groups[d.key] })
@@ -253,10 +263,9 @@
             .data(function(d) { return d; })
             .enter().append("rect")
                 .attr("x", function(d) { return x(d.data.key); })
-                .attr("y", function(d) { return y(d[1]); })
-                .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-                .attr("width",x.bandwidth())
-                .attr("stroke", "grey")
+                .attr("y", function(d) { return y(d[1].comp_lowsec_1524_m_prop_of_total); })
+                .attr("height", function(d) { return height - y(d[1]); })
+                .attr("width",xSubgroup.bandwidth())
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
