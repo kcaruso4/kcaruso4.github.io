@@ -26,7 +26,7 @@
 
     const data = d3.csv("sex_reading.csv", function(data) {
         // Get the names of countries
-        var countries = d3.map(data, function(d){ return(d.countries)}).keys()
+        var countries = d3.map(data, function(d){ return(d.countries)})
 
         console.log(countries)
 
