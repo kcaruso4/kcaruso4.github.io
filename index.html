@@ -206,10 +206,14 @@
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                d3.selectAll(".placeholder" + subgroupName).style("opacity", 1)
+                d3.selectAll("." + subgroupName).style("opacity", 1)
 
-                console.log(d)
-                console.log(subgroupName)
+                var txt = d3.select(this.nextSibling)
+                if (txt.attr('opacity') == 0) {
+                    txt.attr('opacity', '1');
+                } else {
+                    txt.attr('opacity', '0');
+                }
             }
 
             // when no hovering
@@ -225,7 +229,7 @@
             .append("g")
             .attr("transform", function(d) { console.log(d); return "translate(" + x(d.key) + ",0)"; })
             .attr("class", function(d){ 
-                return "mySecondRectplaceholder" + d.key })
+                return "mySecondRect" + d.key })
             .selectAll("rect")
             .data(function(d) { 
                 var finalData = [];
@@ -240,6 +244,16 @@
                 .attr("height", function(d) { return height - y(d.value); })
                 .attr("width",xSubgroup.bandwidth())
                 .attr("fill", function(d) { return color(d.key); })
+            .append("txt")
+            .attr("x", function(d) { return xScale(d.key); })
+            .attr("y", function(d) { return yScale(d.value) + 2 ; })
+            .attr("dy", "1em")
+            .attr("text-anchor", "middle")
+            .attr("font-size", "16px")
+            .attr("fill", "orange")
+            .attr("opacity", '0')
+            .attr("transform", function(d) { return "translate(20, -20)"; })
+            .text(function(d) { return d.value; })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
         })
