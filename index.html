@@ -434,6 +434,7 @@
                 iqr = q3 - q1;
                 min = Math.max( q1 - 1.5 * iqr, 0);
                 max = Math.min(q3 + 1.5 * iqr, 1);
+                console.log({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max, income_group: d[0].income_group})
                 return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max, income_group: d[0].income_group})
             })
             .entries(data)
