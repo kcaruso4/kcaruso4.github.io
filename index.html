@@ -302,8 +302,8 @@
                 q3 = parseFloat(d[2].rlevel2_m);
                 median = parseFloat(d[1].rlevel2_m);
                 iqr = q3 - q1;
-                min = Math.max(q1 - 1.5 * iqr, 0);
-                max = Math.min(q3 + 1.5 * iqr, 1);
+                min = q1 - 1.5 * iqr, 0;
+                max = q3 + 1.5 * iqr;
                 return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
             })
             .entries(data)
