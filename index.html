@@ -266,38 +266,37 @@
     </script>
 
 
-    <!-- <p>This chart is related to wealth and the learning achievement in reading (end of lower secondary) </p>
+    <p>Wealth and the learning achievement in reading (end of lower secondary) </p>
     <div id="wealth_reading"></div>
 
-    <p>This chart is related to wealth and the lower secondary education completion rate </p>
-    <div id="wealth_comp"></div> -->
+    <p>Wealth and the lower secondary education completion rate </p>
+    <div id="wealth_comp"></div>
 
     <script>
-        // var margin = {top: 10, right: 30, bottom: 70, left: 50},
-        //     width = 900 - margin.left - margin.right,
-        //     height = 400 - margin.top - margin.bottom;
+        var margin = {top: 10, right: 30, bottom: 30, left: 40},
+            width = 900 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
 
 
-        // // append the svg object to the body of the page
-        // var svg = d3.select("#sex_reading")
-        // .append("svg")
-        //     .attr("width", width + margin.left + margin.right)
-        //     .attr("height", height + margin.top + margin.bottom)
-        // .append("g")
-        //     .attr("transform",
-        //         "translate(" + margin.left + "," + margin.top + ")");
+        // append the svg object to the body of the page
+        var svg = d3.select("#wealth_reading")
+        .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
 
-        // d3.csv("sex_reading.csv", function(data) {
-        //     // creating tooltip 
-        //     var tooltip = d3.select("#sex_reading")
-        //     .append("div")
-        //     .style("opacity", 0)
-        //     .attr("class", "tooltip")
-        //     .style("background-color", "white")
-        //     .style("border", "solid")
-        //     .style("border-width", "1px")
-        //     .style("border-radius", "5px")
-        //     .style("padding", "10px")
+        d3.csv("sex_reading.csv", function(data) {
+
+            // compute quartiles, median, IQR, min, and max for each country
+            var dataAgg = d3.nest()
+            .key(function(d) {return d.country})
+            .rollup(function(d) {
+                console.log(d)
+
+            })
+            .entires(data)
 
         //     //subgroups 
         //     var subgroups = [0,1]
@@ -518,7 +517,7 @@
         //     .on("mouseover", mouseover)
         //     .on("mouseleave", mouseleave)
         //     .on("mousemove", mousemove)
-        // })
+        })
 
     </script>
 </html>
