@@ -285,11 +285,6 @@
     
 
     <script>
-        var margin = {top: 10, right: 30, bottom: 30, left: 40},
-            width = 900 - margin.left - margin.right,
-            height = 400 - margin.top - margin.bottom;
-
-
         // append the svg object to the body of the page
         var wealthReadingSvg = d3.select("#wealth_reading")
         .append("svg")
@@ -338,6 +333,18 @@
             .range([height, 0])
 
             wealthReadingSvg.append("g").call(d3.axisLeft(y))
+
+            // show main vertical line
+            wealthReadingSvg.selectAll("vertLines")
+            .data(boxData)
+            .enter()
+            .append("line")
+            .atter("x1", function(d) { return (x(d.key))})
+            .atter("x2", function(d) { return (x(d.key))})
+            .atter("y1", function(d) { return (y(d.value.min))})
+            .atter("y2", function(d) { return (y(d.value.max))})
+            .attr("stroke", "black")
+            .style("width", 40)
 
         //     //subgroups 
         //     var subgroups = [0,1]
