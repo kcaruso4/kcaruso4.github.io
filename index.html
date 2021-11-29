@@ -344,7 +344,6 @@
             .attr("stroke", "black")
             .style("width", 40)
 
-            console.log(boxData)
             // create rectangle for main box
             var boxWidth = 30
             wealthReadingSvg.selectAll("boxes")
@@ -370,6 +369,14 @@
             .attr("y2", function(d){return(y(d.value.median))})
             .attr("stroke", "black")
             .style("width", 80)
+
+            //making ledgend
+            var icrement = 0
+            income_groups.forEach((group) => {
+                wealthReadingSvg.append("circle").attr("cx",200).attr("cy",130 + increment).attr("r", 6).style("fill", color(group))
+                svg.append("text").attr("x", 220).attr("y", 130 + increment).text(group).style("font-size", "15px").attr("alignment-baseline","middle")
+                increment += 20;
+            })
         })
 
     </script>
