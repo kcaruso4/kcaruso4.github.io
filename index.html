@@ -474,6 +474,7 @@
             .domain([0,1])
             .range([height, 0])
             wealthCompSvg.append("g").call(d3.axisLeft(y))
+            console.log(boxData)
             // show main vertical line
             wealthCompSvg.selectAll("vertLines")
             .data(boxData)
@@ -509,7 +510,7 @@
                 .attr("x", function(d){return(x(d.key)-boxWidth/2)})
                 .attr("y", function(d){return(y(d.value.q3))})
                 .attr("height", function(d){
-                    if ((y(d.value.q1)-y(d.value.q3)) < 0) {
+                    if (y(d.value.q1)-y(d.value.q3) < 0) {
                         console.log(d)
                     }
                     return(y(d.value.q1)-y(d.value.q3))
