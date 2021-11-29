@@ -371,7 +371,7 @@
             .style("width", 80)
 
             //making ledgend
-            var icrement = 0
+            var increment = 0
             income_groups.forEach((group) => {
                 wealthReadingSvg.append("circle").attr("cx",200).attr("cy",130 + increment).attr("r", 6).style("fill", color(group))
                 svg.append("text").attr("x", 220).attr("y", 130 + increment).text(group).style("font-size", "15px").attr("alignment-baseline","middle")
