@@ -344,6 +344,20 @@
             .attr("stroke", "black")
             .style("width", 40)
 
+            //  // highlight a specific subgroup when hovered 
+            //  var mouseover = function(d) {
+            //     //which group are we hovering over
+            //     var subgroupName = d3.select(this.parentNode).datum().key;
+            //     tooltipSecond
+            //     .html("Country: " + subgroupName + "<br>" + "Category: " + d.key + "<br>" + "Value: " + d.value)
+            //     .style("opacity", 1)
+            //     // //reduce opacity of all other rect to 0.2
+            //     d3.selectAll(".mySecondRect").style("opacity", 0.2)
+
+            //     // //highlight all that are in the subgroup with opacity 1
+            //     d3.selectAll("." + subgroupName).style("opacity", 1)
+            // }
+
             // create rectangle for main box
             var boxWidth = 30
             wealthReadingSvg.selectAll("boxes")
@@ -356,6 +370,8 @@
                 .attr("width", boxWidth )
                 .attr("stroke", "black")
                 .attr("fill", function(d) {return color(d.value.income_group)})
+            .on("mouseover", mouseover)
+            .on("mouseleave", mouseleave)
                 // .style("fill", "#69b3a2")
 
             // // show median
@@ -370,11 +386,12 @@
             .attr("stroke", "black")
             .style("width", 80)
 
-            //making ledgend
+            //making legend
             var increment = 0
             income_groups.forEach((group) => {
-                wealthReadingSvg.append("circle").attr("cx",200).attr("cy",130 + increment).attr("r", 6).style("fill", color(group))
-                svg.append("text").attr("x", 220).attr("y", 130 + increment).text(group).style("font-size", "15px").attr("alignment-baseline","middle")
+                console.log(group)
+                wealthReadingSvg.append("circle").attr("cx",50).attr("cy",230 + increment).attr("r", 6).style("fill", color(group))
+                svg.append("text").attr("x", 50).attr("y", 230 + increment).text(group).style("font-size", "15px").attr("alignment-baseline","middle")
                 increment += 20;
             })
         })
