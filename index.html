@@ -337,32 +337,31 @@
             .attr("stroke", "black")
             .style("width", 40)
             // create rectangle for main box
-            var boxWidth = 40
+            var boxWidth = 30
             wealthReadingSvg.selectAll("boxes")
             .data(boxData)
             .enter()
             .append("rect")
             .attr("x", function(d)
             {
-                console.log(d.key)
-                console.log(x(d.key)-boxWidth/2)
+                // console.log(d.key)
+                // console.log(x(d.key)-boxWidth/2)
                 return(x(d.key)-boxWidth/2)
             }
             )
             .attr("y", function(d){
-                console.log(y(d.value.q3))
+                // console.log(y(d.value.q3))
                 return(y(d.value.q3))
                 })
             .attr("height", function(d){
-                console.log(y(d.value.q1)-y(d.value.q3))
-                return(y(d.value.q1)-y(d.value.q3))
-                }
-                )
+                return(y(d.value.q3)-y(d.value.q1))
+                })
             .attr("width", boxWidth )
             .attr("stroke", "black")
             .style("fill", "#69b3a2")
 
             // // show median
+            console.log(boxData)
             wealthReadingSvg.selectAll("medainLines")
             .data(boxData)
             .enter()
