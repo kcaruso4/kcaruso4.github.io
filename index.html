@@ -231,7 +231,7 @@
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
                 tooltipSecond
-                .html("Country: " + subgroupName + "<br>" + "Category: " + d.key + "<br>" + "Value: " + d.value)
+                .html("Country: " + subgroupName + "<br>" + "Value: " + d.value)
                 .style("opacity", 1)
                 // //reduce opacity of all other rect to 0.2
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
@@ -279,6 +279,18 @@
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
             .on("mousemove", mousemove)
+
+            //legend 
+            svg.selectAll("mylables")
+            .data(subgroups)
+            .enter()
+            .append("text")
+            .attr("x", 700)
+            .attr("y", function(d,i){ return 50 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+            .style("fill", function(d){ return color(d)})
+            .text(function(d){ return groups[d]})
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle")
         })
 
     </script>
