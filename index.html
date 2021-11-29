@@ -28,7 +28,7 @@
 
         d3.csv("sex_reading.csv", function(data) {
             //subgroups 
-            var subgroups = 2
+            var subgroups = [0,1]
 
             var groups = d3.map(data, function(d) {return (d.country)}).keys()
 
