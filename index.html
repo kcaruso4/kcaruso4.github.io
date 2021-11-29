@@ -59,8 +59,8 @@
 
             // stack the data
             var stackedData = d3.stack()
-            .keys(data.country)
-            .value(data.rlevel2_m_prop_of_total)
+            .keys(d3.map(data, function(d) {return (d.country)}).keys())
+            .value(d3.map(data, function(d) {return (d.rlevel2_m_prop_of_total)}).keys())
             .order(d3.stackOrderDescending)
             .offset(d3.stackOffsetNone);
 
