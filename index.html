@@ -350,7 +350,7 @@
                 d3.selectAll(".myBox").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                d3.selectAll("." + d.value.income_group).style("opacity", 1)
+                d3.selectAll("." + d.value.income_group.replace(/\s+/g, '')).style("opacity", 1)
             }
 
             // when no hovering
@@ -372,7 +372,7 @@
                 .attr("fill", function(d) {return color(d.value.income_group)})
                 .attr("class", function(d) { 
                     console.log("myBox " + d.value.income_group)
-                    return "myBox " + d.value.income_group })
+                    return "myBox " + d.value.income_group.replace(/\s+/g, '') })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
 
