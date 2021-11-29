@@ -12,8 +12,8 @@
     <script src="https://d3js.org/d3.v4.js"></script>
 
     <script>
-    var margin = {top: 10, right: 40, bottom: 30, left: 30},
-        width = 450 - margin.left - margin.right,
+    var margin = {top: 10, right: 0, bottom: 30, left: 0},
+        width = 10000 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom; 
 
     var svg = d3.select("#sex_reading")
@@ -55,7 +55,7 @@
 
         // stacked the data
         var stackedData = d3.stack()
-        .key(2)
+        .keys(2)
         (data)
 
         // show the bars
