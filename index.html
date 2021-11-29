@@ -93,10 +93,10 @@
                 .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1)
                 // //reduce opacity of all other rect to 0.2
-                // d3.selectAll(".myRect").style("opacity", 0.2)
+                d3.selectAll(".myRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                // d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
+                d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
             }
 
             var mousemove = function(d) {
@@ -108,7 +108,7 @@
             // when no hovering
             var mouseleave = function(d) {
                 tooltip.style("opacity", 0)
-                // d3.selectAll(".myRect").style("opacity", 0.8)
+                d3.selectAll(".myRect").style("opacity", 0.8)
             }
 
             //bars
