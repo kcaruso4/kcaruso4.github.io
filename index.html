@@ -206,7 +206,7 @@
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                d3.selectAll(subgroupName).style("opacity", 1)
+                d3.selectAll(".placeholder" + subgroupName).style("opacity", 1)
             }
 
             // when no hovering
@@ -222,7 +222,7 @@
             .append("g")
             .attr("transform", function(d) { console.log(d); return "translate(" + x(d.key) + ",0)"; })
             .attr("class", function(d){ 
-                return "mySecondRect " + d.key })
+                return "mySecondRectplaceholder" + d.key })
             .selectAll("rect")
             .data(function(d) { 
                 var finalData = [];
