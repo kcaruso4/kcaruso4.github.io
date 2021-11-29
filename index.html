@@ -64,7 +64,7 @@
 
             // stack the data
             var groups = ["Female", "Male"]
-            var groupId = [0,1]
+            var groupId = ["f", "m"]
             var stackedData = d3.stack()
             .keys(groupId)
             .value(function(d, key) {
@@ -83,7 +83,7 @@
                 d3.selectAll(".myRect").style("opacity", 0.2)
 
                 //highlight all that are in the subgroup with opacity 1
-                d3.selectAll(".myRect"+subgroupName).style("opacity", 1)
+                d3.selectAll("."+subgroupName).style("opacity", 1)
             }
 
             // when no hovering
