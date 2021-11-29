@@ -28,16 +28,6 @@
                 "translate(" + margin.left + "," + margin.top + ")");
 
         d3.csv("sex_reading.csv", function(data) {
-             // creating tooltip 
-            var tooltip = d3.select("#sex_reading")
-            .append("div")
-            .style("opacity", 0)
-            .attr("class", "tooltip")
-            .style("background-color", "white")
-            .style("border", "solid")
-            .style("border-width", "1px")
-            .style("border-radius", "5px")
-            .style("padding", "10px")
             //subgroups 
             var subgroups = [0,1]
 
@@ -82,6 +72,17 @@
                 return d.values[key].comp_lowsec_1524_m_prop_of_total
             })
             (dataAgg)
+
+             // creating tooltip 
+             var tooltip = d3.select("#sex_reading")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            .style("padding", "10px")
 
 
             // highlight a specific subgroup when hovered and initalizing a tooltip 
