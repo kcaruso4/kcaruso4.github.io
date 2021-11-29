@@ -100,7 +100,9 @@
             .enter()
             .append("g")
             .attr("fill", function(d) { return color(d.key); })
-            .attr("class", function(d){ return "myRect " + d.key })
+            .attr("class", function(d){ 
+                console.log("myRect" + d.key)
+                return "myRect " + d.key })
             .selectAll("rect")
             // enter a second time = loop subgroup per subgroup to add all rectangles
             .data(function(d) { return d; })
