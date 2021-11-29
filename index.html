@@ -306,7 +306,6 @@
                 iqr = q3 - q1;
                 min = q1 - 1.5 * iqr;
                 max = q3 + 1.5 * iqr;
-                console.log({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
                 return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
             })
             .entries(data)
@@ -323,9 +322,9 @@
             wealthReadingSvg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x))
-            .selectAll("text")
-            .attr("transform", "translate(-10, 0)rotate(-45)")
-            .style("text-anchor", "end");
+            // .selectAll("text")
+            // .attr("transform", "translate(-10, 0)rotate(-45)")
+            // .style("text-anchor", "end");
 
             // y scale
             var y = d3.scaleLinear()
@@ -346,100 +345,18 @@
             .attr("stroke", "black")
             .style("width", 40)
 
-        //     //subgroups 
-        //     var subgroups = [0,1]
-
-        //     var groups = d3.map(data, function(d) {return (d.country)}).keys()
-
-        //     // x axis
-        //     var x = d3.scaleBand()
-        //     .range([0, width])
-        //     .domain(groups)
-        //     .padding([0.2]);
-
-        //     svg.append("g")
-        //     .attr("transform", "translate(0," + height + ")")
-        //     .call(d3.axisBottom(x))
-        //     .selectAll("text")
-        //     .attr("transform", "translate(-10, 0)rotate(-45)")
-        //     .style("text-anchor", "end");
-
-            
-        //     // y axis
-        //     var y = d3.scaleLinear()
-        //     .domain([0, 1])
-        //     .range([height, 0]);
-        //     svg.append("g")
-        //     .call(d3.axisLeft(y));
-
-        //     // color
-        //     var color = d3.scaleOrdinal()
-        //     .domain(subgroups)
-        //     .range(d3.schemeSet2)
-
-        //     var dataAgg = d3.nest()
-        //     .key(function(d) {return d.country})
-        //     .entries(data);
-
-        //     // stack the data
-        //     var groups = ["Female", "Male"]
-        //     var groupId = [0,1]
-        //     var stackedData = d3.stack()
-        //     .keys(groupId)
-        //     .value(function(d, key) {
-        //         return d.values[key].rlevel2_m_prop_of_total
-        //     })
-        //     (dataAgg)
-
-        //     // highlight a specific subgroup when hovered and initalizing a tooltip 
-        //     var mouseover = function(d) {
-        //         //which group are we hovering over
-        //         var subgroupName = d3.select(this.parentNode).datum().key;
-        //         var subgroupValue = d.data.values[subgroupName].rlevel2_m_prop_of_total;
-        //         tooltip
-        //         .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
-        //         .style("opacity", 1)
-        //         // //reduce opacity of all other rect to 0.2
-        //         d3.selectAll(".myRect").style("opacity", 0.2)
-
-        //         // //highlight all that are in the subgroup with opacity 1
-        //         d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
-        //     }
-
-        //     var mousemove = function(d) {
-        //         tooltip
-        //         .style("left", (d3.mouse(this)[0] + 90) + "px") 
-        //         .style("top", (d3.mouse(this)[1]) + "px")
-        //     }
-
-        //     // when no hovering
-        //     var mouseleave = function(d) {
-        //         tooltip.style("opacity", 0)
-        //         d3.selectAll(".myRect").style("opacity", 0.8)
-        //     }
-
-        //     //bars
-        //     svg.append("g")
-        //     .selectAll("g")
-        //     .data(stackedData)
-        //     .enter()
-        //     .append("g")
-        //     .attr("fill", function(d) { return color(d.key); })
-        //     .attr("class", function(d){ 
-        //         return "myRect " + groups[d.key] })
-        //     .selectAll("rect")
-        //     .data(function(d) { return d; })
-        //      .enter().append("rect")
-        //         .attr("x", function(d) { return x(d.data.key); })
-        //         .attr("y", function(d) { return y(d[1]); })
-        //         .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-        //         .attr("width",x.bandwidth())
-        //         .attr("stroke", "grey")
-        //     .on("mouseover", mouseover)
-        //     .on("mousemove", mousemove)
-        //     .on("mouseleave", mouseleave)
-        // })
-
+            // create rectangle for main box
+            var boxWidth = 100
+            wealthReadingSvg.selectAll("boxes")
+            .data(boxData)
+            .enter()
+            .append("rect")
+            .attr("x", function(d){return(x(d.key)-boxWidth/2)})
+            .attr("y", function(d){return(y(d.value.q3))})
+            .attr("height", function(d){return(y(d.value.q1)-y(d.value.q3))})
+            .attr("width", boxWidth )
+            .attr("stroke", "black")
+            .style("fill", "#69b3a2")
 
 
 
