@@ -346,8 +346,6 @@
 
              // highlight a specific subgroup when hovered 
              var mouseover = function(d) {
-                //which group are we hovering over
-                console.log(d)
                 // //reduce opacity of all other rect to 0.2
                 d3.selectAll(".myBox").style("opacity", 0.2)
 
@@ -357,7 +355,6 @@
 
             // when no hovering
             var mouseleave = function(d) {
-                tooltip.style("opacity", 0)
                 d3.selectAll(".myBox").style("opacity", 0.8)
             }
 
@@ -373,10 +370,7 @@
                 .attr("width", boxWidth )
                 .attr("stroke", "black")
                 .attr("fill", function(d) {return color(d.value.income_group)})
-                .attr("class", function(d) {
-                    console.log(d.value.income_group)
-                    return "myBox " + d.value.income_group
-                })
+                .attr("class", function(d) { return "myBox " + d.value.income_group })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
                 // .style("fill", "#69b3a2")
