@@ -370,10 +370,11 @@
                 .attr("width", boxWidth )
                 .attr("stroke", "black")
                 .attr("fill", function(d) {return color(d.value.income_group)})
-                .attr("class", function(d) { return "myBox " + d.value.income_group })
+                .attr("class", function(d) { 
+                    console.log("myBox " + d.value.income_group)
+                    return "myBox " + d.value.income_group })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
-                // .style("fill", "#69b3a2")
 
             // // show median
             wealthReadingSvg.selectAll("medainLines")
