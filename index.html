@@ -92,36 +92,14 @@
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
                 var subgroupValue = d.data.values[subgroupName].rlevel2_m_prop_of_total;
-                // tooltip
-                // .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
-                // .style("opacity", 1)
+                tooltip
+                .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
+                .style("opacity", 1)
                 // //reduce opacity of all other rect to 0.2
                 d3.selectAll(".myRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
                 d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
-
-                //add value above bar
-                svg.selectAll("text")
-                .data(d)
-                .enter()
-                .append("text")
-                .text(function(d) { return d.data.values[subgroupName].rlevel2_m_prop_of_total})
-                .attr("x", function(d,i){
-                return xScale(i) + xScale.bandwidth() / 2;
-
-                })
-                .attr("y", function(d){
-                return h - yScale(d) + 14 ;
-                })
-
-                .attr("font-family" , "sans-serif")
-
-                .attr("font-size" , "11px")
-
-                .attr("fill" , "white")
-
-                .attr("text-anchor", "middle");
             }
 
             var mousemove = function(d) {
@@ -225,7 +203,7 @@
             .entries(data);
 
             // stack the data
-            var groups = ["Female", "Male"]
+            var groups = ["Female ", "Male "]
             var groupId = [0,1]
             var stackedData = d3.stack()
             .keys(groupId)
@@ -247,7 +225,7 @@
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                d3.selectAll(".second"+ groups[subgroupName]).style("opacity", 1)
+                d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
             }
 
             var mousemove = function(d) {
@@ -270,7 +248,7 @@
             .append("g")
             .attr("fill", function(d) { return color(d.key); })
             .attr("class", function(d){ 
-                return "mySecondRectsecond " + groups[d.key] })
+                return "mySecondRect " + groups[d.key] })
             .selectAll("rect")
             .data(function(d) { return d; })
             .enter().append("rect")
