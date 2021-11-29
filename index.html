@@ -248,10 +248,8 @@
             .data(function(d) { 
                 var finalData = [];
                 d.values.forEach(ele => {
-                    console.log(ele)
                     finalData.push({key: ele.Sex, value: ele.comp_lowsec_1524_m})
                 });
-                console.log(finalData)
                 return finalData;
             })
             .enter().append("rect")
