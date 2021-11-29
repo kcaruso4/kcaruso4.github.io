@@ -232,7 +232,7 @@
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
                 tooltipSecond
-                .html("Country: " + subgroupName + "<br>" + "Value: " + d.value)
+                .html("Country: " + subgroupName + "<br>" + "Value: " + d.value + "<br>" + "Sex: " + d.key)
                 .style("opacity", 1)
                 // //reduce opacity of all other rect to 0.2
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
@@ -491,7 +491,7 @@
              // highlight a specific subgroup when hovered 
              var mouseover = function(d) {
                 // //reduce opacity of all other rect to 0.2
-                d3.selectAll(".myBox").style("opacity", 0.2)
+                d3.selectAll(".mySecondBox").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
                 d3.selectAll("." + d.value.income_group.replace(/\s+/g, '-')).style("opacity", 1)
@@ -499,7 +499,7 @@
 
             // when no hovering
             var mouseleave = function(d) {
-                d3.selectAll(".myBox").style("opacity", 0.8)
+                d3.selectAll(".mySecondBox").style("opacity", 0.8)
             }
 
             // create rectangle for main box
@@ -515,7 +515,7 @@
                 .attr("stroke", "black")
                 .attr("fill", function(d) {return color(d.value.income_group)})
                 .attr("class", function(d) { 
-                    return "myBox " + d.value.income_group.replace(/\s+/g, '-') })
+                    return "mySecondBox " + d.value.income_group.replace(/\s+/g, '-') })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
 
