@@ -8,6 +8,9 @@
 
     <p>This chart is related to sex and the learning achievement in reading (end of lower secondary) </p>
     <div id="sex_reading"></div>
+
+    <p>This chart is related to sex and the lower secondary education completion rate </p>
+    <div id="sex_comp"></div>
       
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
@@ -132,21 +135,11 @@
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
         })
-    
-    </script>
 
-    <p>This chart is related to sex and the lower secondary education completion rate </p>
-    <div id="sex_comp"></div>
-
-
-    <script>
-        var margin = {top: 10, right: 30, bottom: 20, left: 50},
-            width = 900 - margin.left - margin.right,
-            height = 400 - margin.top - margin.bottom;
-
+        //START OF SECOND CHART
 
         // append the svg object to the body of the page
-        var svg = d3.select("#sex_comp")
+        var svgTwo = d3.select("#sex_comp")
             .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
@@ -156,7 +149,7 @@
 
         d3.csv("sex_comp.csv", function(data) {
             // creating tooltip 
-            var tooltip = d3.select("#sex_comp")
+            var tooltipTwo = d3.select("#sex_comp")
             .append("div")
             .style("opacity", 0)
             .attr("class", "tooltip")
@@ -177,7 +170,7 @@
             .domain(groups)
             .padding([0.2]);
 
-            svg.append("g")
+            svgTwo.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x))
             .selectAll("text")
@@ -189,7 +182,7 @@
             var y = d3.scaleLinear()
             .domain([0, 1])
             .range([height, 0]);
-            svg.append("g")
+            svgTwo.append("g")
             .call(d3.axisLeft(y));
 
             // color
@@ -240,7 +233,7 @@
             }
 
             //bars
-            svg.append("g")
+            svgTwo.append("g")
             .selectAll("g")
             .data(stackedData)
             .enter()
