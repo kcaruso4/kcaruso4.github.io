@@ -69,6 +69,8 @@
             var stackedData = d3.stack()
             .keys(groupId)
             .value(function(d, key) {
+                console.log(d.values[key])
+                console.log(d.values[key].rlevel2_m_prop_of_total)
                 return d.values[key].rlevel2_m_prop_of_total
             })
             (dataAgg)
