@@ -187,6 +187,7 @@
 
             //subgroups 
             var subgroups = ["Female", "Male"]
+            var subgroupId = [0,1]
 
             var groups = d3.map(data, function(d) {return (d.country)}).keys()
 
@@ -280,15 +281,16 @@
             .on("mouseleave", mouseleave)
             .on("mousemove", mousemove)
 
+
             //legend 
             svgTwo.selectAll("mylables")
-            .data(subgroups)
+            .data(subgroupId)
             .enter()
             .append("text")
             .attr("x", 700)
             .attr("y", function(d,i){ return 50 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
-            .style("fill", function(d){ return color(d)})
-            .text(function(d){ return groups[d]})
+            .style("fill", function(d){ return color(subgroup[d])})
+            .text(function(d){ return subgroup[d]})
             .attr("text-anchor", "left")
             .style("alignment-baseline", "middle")
         })
