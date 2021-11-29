@@ -371,7 +371,6 @@
                 .attr("stroke", "black")
                 .attr("fill", function(d) {return color(d.value.income_group)})
                 .attr("class", function(d) { 
-                    console.log("myBox " + d.value.income_group)
                     return "myBox " + d.value.income_group.replace(/\s+/g, '') })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
