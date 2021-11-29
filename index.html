@@ -430,21 +430,21 @@
 
 
         //START OF SECOND WEALTH CHART
-        var wealthReadingSvg = d3.select("#wealth_reading")
+        var wealthCompSvg = d3.select("#wealth_reading")
         .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
         .append("g")
             .attr("transform",
                 "translate(" + margin.left + "," + margin.top + ")");
-        d3.csv("wealth_reading.csv", function(data) {
+        d3.csv("wealth_comp.csv", function(data) {
             // compute quartiles, median, IQR, min, and max for each country
             var boxData = d3.nest()
             .key(function(d) {return d.country})
             .rollup(function(d) {
-                q1 = parseFloat(d[0].rlevel2_m);
-                q3 = parseFloat(d[2].rlevel2_m);
-                median = parseFloat(d[1].rlevel2_m);
+                q1 = parseFloat(d[0].comp_lowsec_1524_m);
+                q3 = parseFloat(d[2].comp_lowsec_1524_m);
+                median = parseFloat(d[1].comp_lowsec_1524_m);
                 iqr = q3 - q1;
                 min = Math.max( q1 - 1.5 * iqr, 0);
                 max = Math.min(q3 + 1.5 * iqr, 1);
@@ -465,7 +465,7 @@
             .domain(countries)
             .paddingInner(1)
             .paddingOuter(.5)
-            wealthReadingSvg.append("g")
+            wealthCompSvg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x))
             .selectAll("text")
@@ -475,9 +475,9 @@
             var y = d3.scaleLinear()
             .domain([0,1])
             .range([height, 0])
-            wealthReadingSvg.append("g").call(d3.axisLeft(y))
+            wealthCompSvg.append("g").call(d3.axisLeft(y))
             // show main vertical line
-            wealthReadingSvg.selectAll("vertLines")
+            wealthCompSvg.selectAll("vertLines")
             .data(boxData)
             .enter()
             .append("line")
@@ -494,7 +494,7 @@
                 d3.selectAll(".myBox").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
-                d3.selectAll("." + d.value.income_group.replace(/\s+/g, '')).style("opacity", 1)
+                d3.selectAll("." + d.value.income_group.replace(/\s+/g, '-')).style("opacity", 1)
             }
 
             // when no hovering
@@ -504,7 +504,7 @@
 
             // create rectangle for main box
             var boxWidth = 30
-            wealthReadingSvg.selectAll("boxes")
+            wealthCompSvg.selectAll("boxes")
             .data(boxData)
             .enter()
             .append("rect")
@@ -515,12 +515,12 @@
                 .attr("stroke", "black")
                 .attr("fill", function(d) {return color(d.value.income_group)})
                 .attr("class", function(d) { 
-                    return "myBox " + d.value.income_group.replace(/\s+/g, '') })
+                    return "myBox " + d.value.income_group.replace(/\s+/g, '-') })
             .on("mouseover", mouseover)
             .on("mouseleave", mouseleave)
 
             // // show median
-            wealthReadingSvg.selectAll("medainLines")
+            wealthCompSvg.selectAll("medainLines")
             .data(boxData)
             .enter()
             .append("line")
@@ -532,7 +532,7 @@
             .style("width", 80)
 
             //legend 
-            wealthReadingSvg.selectAll("mylables")
+            wealthCompSvg.selectAll("mylables")
             .data(income_groups)
             .enter()
             .append("text")
