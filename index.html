@@ -428,13 +428,12 @@
             var boxData = d3.nest()
             .key(function(d) {return d.country})
             .rollup(function(d) {
-                q1 = parseFloat(d[0].rlevel2_m);
-                q3 = parseFloat(d[2].rlevel2_m);
-                median = parseFloat(d[1].rlevel2_m);
+                q1 = parseFloat(d[0].comp_lowsec_1524_m);
+                q3 = parseFloat(d[2].comp_lowsec_1524_m);
+                median = parseFloat(d[1].comp_lowsec_1524_m);
                 iqr = q3 - q1;
                 min = Math.max( q1 - 1.5 * iqr, 0);
                 max = Math.min(q3 + 1.5 * iqr, 1);
-                console.log({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max, income_group: d[0].income_group})
                 return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max, income_group: d[0].income_group})
             })
             .entries(data)
