@@ -59,7 +59,6 @@
 
             var dataAgg = d3.nest()
             .key(function(d) {return d.country})
-            .map(data, function(d) {return (d.rlevel2_m_prop_of_total)}).keys()
             .entries(data);
 
             console.log(dataAgg)
