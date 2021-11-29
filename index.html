@@ -231,7 +231,7 @@
             .data(dataAgg)
             .enter()
             .append("g")
-            .attr("transform", function(d) { console.log(d); return "translate(" + x(d.group) + ",0)"; })
+            .attr("transform", function(d) { console.log(d); return "translate(" + x(d.key) + ",0)"; })
             .attr("class", function(d){ 
                 return "mySecondRect " + groups[d.key] })
             .selectAll("rect")
@@ -240,17 +240,16 @@
                 d.values.forEach(ele => {
                     finalData.push({key: ele.Sex, value: ele.comp_lowsec_1524_m_prop_of_total})
                 });
-                console.log(finalData);
                 return finalData;
             })
-        //     .enter().append("rect")
-        //         .attr("x", function(d) { return xSubgroup(d.key); })
-        //         .attr("y", function(d) { return y(d.value); })
-        //         .attr("height", function(d) { return height - y(d.value); })
-        //         .attr("width",xSubgroup.bandwidth())
-        //         .attr("fill", function(d) { return color(d.key); })
-        //     .on("mouseover", mouseover)
-        //     .on("mouseleave", mouseleave)
+            .enter().append("rect")
+                .attr("x", function(d) { return xSubgroup(d.key); })
+                .attr("y", function(d) { return y(d.value); })
+                .attr("height", function(d) { return height - y(d.value); })
+                .attr("width",xSubgroup.bandwidth())
+                .attr("fill", function(d) { return color(d.key); })
+            .on("mouseover", mouseover)
+            .on("mouseleave", mouseleave)
         })
 
     </script>
