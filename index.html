@@ -90,9 +90,9 @@
                 var subgroupName = d3.select(this.parentNode).datum().key;
                 console.log(d)
                 console.log(subgroupName)
-                var subgroupValue = d.data[subgroupName];
+                var subgroupValue = d[subgroupName];
                 tooltip
-                .html("Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
+                .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1)
                 //reduce opacity of all other rect to 0.2
                 d3.selectAll(".myRect").style("opacity", 0.2)
