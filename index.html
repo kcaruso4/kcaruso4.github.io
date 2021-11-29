@@ -83,7 +83,7 @@
                 d3.selectAll(".myRect").style("opacity", 0.2)
 
                 //highlight all that are in the subgroup with opacity 1
-                d3.selectAll("."+subgroupName).style("opacity", 1)
+                d3.selectAll(".myRect"+subgroupName).style("opacity", 1)
             }
 
             // when no hovering
@@ -101,7 +101,6 @@
             .append("g")
             .attr("fill", function(d) { return color(d.key); })
             .attr("class", function(d){ 
-                console.log("myRect" + d.key)
                 return "myRect " + d.key })
             .selectAll("rect")
             // enter a second time = loop subgroup per subgroup to add all rectangles
