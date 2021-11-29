@@ -1,82 +1,82 @@
-,iso_code,region_group,income_group,country,year,category,Sex,Location,Wealth,comp_lowsec_1524_m,comp_lowsec_1524_no,literacy_1524_m,literacy_1524_no,rlevel4_m,rlevel2_m
-8,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Location,,Rural,,0.264,31069.0,0.5755,9066.0,,
-9,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Location,,Urban,,0.4872,11631.0,0.8153,3286.0,,
-868,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Location,,Rural,,0.0873,4137.0,,,,
-869,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Location,,Urban,,0.4634,7903.0,,,,
-19970,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Location,,Rural,,0.9925,400.0,1.0,2118.0,,
-19971,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Location,,Urban,,0.9908,591.0,1.0,3203.0,,
-20074,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Location,,Rural,,0.1961,9637.0,,,,
-20075,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Location,,Urban,,0.5141,2715.0,,,,
-21348,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Location,,Rural,,0.0262,5865.0,0.2302,76.0,,
-21349,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Location,,Urban,,0.2242,3647.0,0.7345,95.0,,
-26766,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Location,,Rural,,0.1002,5062.0,,,,
-26767,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Location,,Urban,,0.3826,3933.0,,,,
-31893,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Location,,Rural,,0.3341,2589.0,0.7597,2282.0,,
-31894,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Location,,Urban,,0.5343,1934.0,0.9082,2229.0,,
-33050,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Location,,Rural,,0.9675,1069.0,,,,
-33051,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Location,,Urban,,0.9798,3351.0,,,,
-42605,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Location,,Rural,,0.1306,1905.0,0.8377,991.0,,
-42606,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Location,,Urban,,0.33,4861.0,0.9531,3143.0,,
-47603,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Location,,Rural,,0.2856,12362.0,0.865,9062.0,,
-47604,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Location,,Urban,,0.5662,8829.0,0.9706,9303.0,,
-49161,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Location,,Rural,,0.7851,3080.0,,,,
-49162,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Location,,Urban,,0.909,906.0,,,,
-55069,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Location,,Rural,,0.7081,384848.0,,,,
-55070,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Location,,Urban,,0.8154,155668.0,,,,
-61587,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Location,,Rural,,0.9142,1306.0,,,,
-61588,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Location,,Urban,,0.9479,2000.0,,,,
-65280,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Location,,Rural,,0.6445,16597.0,0.9002,12673.0,,
-65281,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Location,,Urban,,0.8645,9936.0,0.9645,9640.0,,
-67178,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Location,,Rural,,0.3119,9141.0,0.7756,6399.0,,
-67179,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Location,,Urban,,0.6318,4184.0,0.938,4373.0,,
-69868,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Location,,Rural,,0.1021,3910.0,0.5573,3144.0,,
-69869,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Location,,Urban,,0.3883,3226.0,0.8366,3054.0,,
-79562,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Location,,Rural,,0.3153,5894.0,,,,
-79563,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Location,,Urban,,0.6771,2410.0,,,,
-83792,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Location,,Rural,,0.1468,17700.0,,,,
-83793,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Location,,Urban,,0.4959,4692.0,,,,
-98380,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Location,,Rural,,0.8108,2265.0,,,,
-98381,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Location,,Urban,,0.7915,8931.0,,,,
-102294,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Location,,Rural,,0.1759,7130.0,0.8205,6055.0,,
-102295,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Location,,Urban,,0.4082,2675.0,0.933,3046.0,,
-103822,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Location,,Rural,,0.4427,9754.0,,,,
-103823,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Location,,Urban,,0.7171,5142.0,,,,
-108269,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Location,,Rural,,0.2195,894.0,,,,
-108270,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Location,,Urban,,0.2887,1395.0,,,,
-112076,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Location,,Rural,,0.368,3450.0,,,,
-112077,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Location,,Urban,,0.6017,736.0,,,,
-112891,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Location,,Rural,,0.0554,10265.0,0.1922,5014.0,,
-112892,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Location,,Urban,,0.3252,4401.0,0.6468,2191.0,,
-173601,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Location,,Rural,,0.2186,4820.0,,,,
-173602,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Location,,Urban,,0.5975,6100.0,,,,
-173763,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Location,,Rural,,0.5504,9200.0,,,,
-173764,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Location,,Urban,,0.8437,5810.0,,,,
-173817,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Location,,Rural,,0.7378,1712.0,,,,
-173818,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Location,,Urban,,0.7919,2994.0,,,,
-173925,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Location,,Rural,,0.1782,4543.0,,,,
-173926,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Location,,Urban,,0.5169,3111.0,,,,
-174084,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Location,,Rural,,0.0812,3641.0,,,,
-174085,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Location,,Urban,,0.3022,7031.0,,,,
-174138,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Location,,Urban,,0.9919,896.0,,,,
-174174,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Location,,Rural,,0.8829,6849.0,,,,
-174175,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Location,,Urban,,0.9133,4377.0,,,,
-174228,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Location,,Rural,,0.86,2211.0,,,,
-174229,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Location,,Urban,,0.8158,2237.0,,,,
-174282,TON,Oceania,Upper middle income countries,Tonga,2019.0,Location,,Rural,,0.8193,1608.0,,,,
-174283,TON,Oceania,Upper middle income countries,Tonga,2019.0,Location,,Urban,,0.8347,692.0,,,,
-174416,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Location,,Rural,,0.9338,5830.0,,,,
-174417,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Location,,Urban,,0.7863,1213.0,,,,
-174524,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Location,,Rural,,0.8076,2298.0,,,,
-174525,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Location,,Urban,,0.9253,2083.0,,,,
-174578,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Location,,Rural,,0.7674,13413.0,,,,
-174579,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Location,,Urban,,0.9281,12795.0,,,,
-174686,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Location,,Rural,,0.063,2535.0,,,,
-174687,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Location,,Urban,,0.3056,3182.0,,,,
-174740,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Location,,Rural,,0.5602,4427.0,,,,
-174741,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Location,,Urban,,0.754,3468.0,,,,
-174794,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Location,,Rural,,0.6595,4033.0,,,,
-174795,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Location,,Urban,,0.8391,5661.0,,,,
-174954,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Location,,Rural,,0.0995,4916.0,,,,
-174955,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Location,,Urban,,0.3433,2185.0,,,,
-175135,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Location,,Urban,,0.921,1540.0,,,,
-175153,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Location,,Rural,,0.9043,1839.0,,,,
+,iso_code,region_group,income_group,country,year,Location,comp_lowsec_1524_m
+8,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Rural,0.264
+9,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Urban,0.4872
+868,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Rural,0.0873
+869,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Urban,0.4634
+19970,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Rural,0.9925
+19971,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Urban,0.9908
+20074,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Rural,0.1961
+20075,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Urban,0.5141
+21348,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Rural,0.0262
+21349,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Urban,0.2242
+26766,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Rural,0.1002
+26767,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Urban,0.3826
+31893,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Rural,0.3341
+31894,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Urban,0.5343
+33050,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Rural,0.9675
+33051,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Urban,0.9798
+42605,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Rural,0.1306
+42606,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Urban,0.33
+47603,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Rural,0.2856
+47604,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Urban,0.5662
+49161,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Rural,0.7851
+49162,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Urban,0.909
+55069,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Rural,0.7081
+55070,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Urban,0.8154
+61587,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Rural,0.9142
+61588,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Urban,0.9479
+65280,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Rural,0.6445
+65281,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Urban,0.8645
+67178,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Rural,0.3119
+67179,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Urban,0.6318
+69868,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Rural,0.1021
+69869,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Urban,0.3883
+79562,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Rural,0.3153
+79563,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Urban,0.6771
+83792,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Rural,0.1468
+83793,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Urban,0.4959
+98380,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Rural,0.8108
+98381,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Urban,0.7915
+102294,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Rural,0.1759
+102295,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Urban,0.4082
+103822,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Rural,0.4427
+103823,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Urban,0.7171
+108269,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Rural,0.2195
+108270,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Urban,0.2887
+112076,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Rural,0.368
+112077,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Urban,0.6017
+112891,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Rural,0.0554
+112892,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Urban,0.3252
+173601,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Rural,0.2186
+173602,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Urban,0.5975
+173763,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Rural,0.5504
+173764,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Urban,0.8437
+173817,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Rural,0.7378
+173818,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Urban,0.7919
+173925,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Rural,0.1782
+173926,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Urban,0.5169
+174084,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Rural,0.0812
+174085,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Urban,0.3022
+174138,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Urban,0.9919
+174174,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Rural,0.8829
+174175,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Urban,0.9133
+174228,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Rural,0.86
+174229,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Urban,0.8158
+174282,TON,Oceania,Upper middle income countries,Tonga,2019.0,Rural,0.8193
+174283,TON,Oceania,Upper middle income countries,Tonga,2019.0,Urban,0.8347
+174416,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Rural,0.9338
+174417,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Urban,0.7863
+174524,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Rural,0.8076
+174525,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Urban,0.9253
+174578,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Rural,0.7674
+174579,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Urban,0.9281
+174686,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Rural,0.063
+174687,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Urban,0.3056
+174740,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Rural,0.5602
+174741,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Urban,0.754
+174794,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Rural,0.6595
+174795,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Urban,0.8391
+174954,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Rural,0.0995
+174955,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Urban,0.3433
+175135,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Urban,0.921
+175153,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Rural,0.9043

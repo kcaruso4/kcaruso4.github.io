@@ -1,201 +1,201 @@
-,iso_code,region_group,income_group,country,year,category,Sex,Location,Wealth,comp_lowsec_1524_m,comp_lowsec_1524_no,literacy_1524_m,literacy_1524_no,rlevel4_m,rlevel2_m
-492,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Wealth,,,Quintile 1,0.2164,8348.0,0.4919,1971.0,,
-493,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Wealth,,,Quintile 2,0.2322,9130.0,0.4927,2558.0,,
-494,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Wealth,,,Quintile 3,0.2374,8702.0,0.5333,2544.0,,
-495,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Wealth,,,Quintile 4,0.3464,8920.0,0.6885,2816.0,,
-496,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Wealth,,,Quintile 5,0.5456,7600.0,0.8655,2463.0,,
-1149,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Wealth,,,Quintile 1,0.046,2134.0,,,,
-1150,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Wealth,,,Quintile 2,0.0856,2543.0,,,,
-1151,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Wealth,,,Quintile 3,0.2372,2913.0,,,,
-1152,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Wealth,,,Quintile 4,0.4452,2316.0,,,,
-1153,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Wealth,,,Quintile 5,0.7164,2134.0,,,,
-20049,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Wealth,,,Quintile 1,0.983,179.0,1.0,907.0,,
-20050,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Wealth,,,Quintile 2,0.9929,216.0,1.0,991.0,,
-20051,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Wealth,,,Quintile 3,1.0,208.0,1.0,1062.0,,
-20052,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Wealth,,,Quintile 4,0.9942,180.0,1.0,1130.0,,
-20053,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Wealth,,,Quintile 5,0.9857,208.0,1.0,1231.0,,
-20335,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Wealth,,,Quintile 1,0.0843,2557.0,,,,
-20336,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Wealth,,,Quintile 2,0.1237,2764.0,,,,
-20337,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Wealth,,,Quintile 3,0.2119,2732.0,,,,
-20338,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Wealth,,,Quintile 4,0.3783,2340.0,,,,
-20339,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Wealth,,,Quintile 5,0.6049,1959.0,,,,
-21645,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Wealth,,,Quintile 1,0.0159,1945.0,,,,
-21646,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Wealth,,,Quintile 2,0.0271,2034.0,,,,
-21647,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Wealth,,,Quintile 3,0.0304,2138.0,,,,
-21648,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Wealth,,,Quintile 4,0.1319,1894.0,,,,
-21649,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Wealth,,,Quintile 5,0.2981,1501.0,,,,
-26970,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Wealth,,,Quintile 1,0.0463,1915.0,,,,
-26971,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Wealth,,,Quintile 2,0.1044,1811.0,,,,
-26972,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Wealth,,,Quintile 3,0.2304,2019.0,,,,
-26973,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Wealth,,,Quintile 4,0.2912,1700.0,,,,
-26974,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Wealth,,,Quintile 5,0.5114,1550.0,,,,
-31986,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Wealth,,,Quintile 1,0.1592,775.0,0.5186,614.0,,
-31987,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Wealth,,,Quintile 2,0.3033,918.0,0.708,792.0,,
-31988,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Wealth,,,Quintile 3,0.3942,892.0,0.8395,836.0,,
-31989,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Wealth,,,Quintile 4,0.4773,937.0,0.899,992.0,,
-31990,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Wealth,,,Quintile 5,0.6004,1001.0,0.9407,1277.0,,
-42812,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Wealth,,,Quintile 1,0.0874,2356.0,0.819,974.0,,
-42813,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Wealth,,,Quintile 2,0.1933,1613.0,0.9108,856.0,,
-42814,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Wealth,,,Quintile 3,0.2679,1065.0,0.9403,732.0,,
-42815,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Wealth,,,Quintile 4,0.3566,934.0,0.9547,758.0,,
-42816,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Wealth,,,Quintile 5,0.5603,798.0,0.984,814.0,,
-47783,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Wealth,,,Quintile 1,0.107,3803.0,0.7071,2487.0,,
-47784,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Wealth,,,Quintile 2,0.2142,4473.0,0.8525,2935.0,,
-47785,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Wealth,,,Quintile 3,0.365,4655.0,0.9269,3317.0,,
-47786,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Wealth,,,Quintile 4,0.5607,4332.0,0.9778,4106.0,,
-47787,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Wealth,,,Quintile 5,0.756,3928.0,0.9953,5520.0,,
-49303,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Wealth,,,Quintile 1,0.6433,1222.0,,,,
-49304,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Wealth,,,Quintile 2,0.749,788.0,,,,
-49305,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Wealth,,,Quintile 3,0.8573,673.0,,,,
-49306,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Wealth,,,Quintile 4,0.9023,699.0,,,,
-49307,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Wealth,,,Quintile 5,0.9207,604.0,,,,
-55606,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Wealth,,,Quintile 1,0.4727,101465.0,,,,
-55607,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Wealth,,,Quintile 2,0.6541,121936.0,,,,
-55608,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Wealth,,,Quintile 3,0.766,118389.0,,,,
-55609,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Wealth,,,Quintile 4,0.8574,104809.0,,,,
-55610,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Wealth,,,Quintile 5,0.9447,93917.0,,,,
-61675,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Wealth,,,Quintile 1,0.8586,634.0,,,,
-61676,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Wealth,,,Quintile 2,0.9282,710.0,,,,
-61677,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Wealth,,,Quintile 3,0.9448,736.0,,,,
-61678,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Wealth,,,Quintile 4,0.9537,665.0,,,,
-61679,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Wealth,,,Quintile 5,0.9795,561.0,,,,
-65522,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Wealth,,,Quintile 1,0.3964,6285.0,0.7298,3144.0,,
-65523,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Wealth,,,Quintile 2,0.6132,5254.0,0.8876,3862.0,,
-65524,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Wealth,,,Quintile 3,0.7429,5221.0,0.937,4376.0,,
-65525,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Wealth,,,Quintile 4,0.8527,5319.0,0.962,5132.0,,
-65526,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Wealth,,,Quintile 5,0.932,4454.0,0.982,5799.0,,
-67471,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Wealth,,,Quintile 1,0.1413,2325.0,0.4952,1302.0,,
-67472,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Wealth,,,Quintile 2,0.1986,2287.0,0.6611,1416.0,,
-67473,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Wealth,,,Quintile 3,0.3177,2237.0,0.8112,1549.0,,
-67474,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Wealth,,,Quintile 4,0.4611,2665.0,0.8874,2214.0,,
-67475,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Wealth,,,Quintile 5,0.6449,3811.0,0.9594,4291.0,,
-70050,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Wealth,,,Quintile 1,0.0516,1799.0,0.4339,1320.0,,
-70051,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Wealth,,,Quintile 2,0.0924,1682.0,0.549,1340.0,,
-70052,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Wealth,,,Quintile 3,0.2034,1563.0,0.6769,1337.0,,
-70053,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Wealth,,,Quintile 4,0.3527,1118.0,0.833,1073.0,,
-70054,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Wealth,,,Quintile 5,0.5425,974.0,0.9241,1128.0,,
-79799,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Wealth,,,Quintile 1,0.1089,1569.0,,,,
-79800,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Wealth,,,Quintile 2,0.2434,1572.0,,,,
-79801,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Wealth,,,Quintile 3,0.3858,1804.0,,,,
-79802,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Wealth,,,Quintile 4,0.5595,1768.0,,,,
-79803,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Wealth,,,Quintile 5,0.7553,1591.0,,,,
-83954,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Wealth,,,Quintile 1,0.059,3717.0,,,,
-83955,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Wealth,,,Quintile 2,0.089,4131.0,,,,
-83956,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Wealth,,,Quintile 3,0.1212,4110.0,,,,
-83957,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Wealth,,,Quintile 4,0.2222,4531.0,,,,
-83958,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Wealth,,,Quintile 5,0.4821,5903.0,,,,
-98568,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Wealth,,,Quintile 1,0.7237,2269.0,,,,
-98569,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Wealth,,,Quintile 2,0.7999,2493.0,,,,
-98570,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Wealth,,,Quintile 3,0.7578,2513.0,,,,
-98571,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Wealth,,,Quintile 4,0.8106,2673.0,,,,
-98572,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Wealth,,,Quintile 5,0.8604,2601.0,,,,
-102429,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Wealth,,,Quintile 1,0.0668,1547.0,0.6551,1158.0,,
-102430,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Wealth,,,Quintile 2,0.0973,1666.0,0.7888,1313.0,,
-102431,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Wealth,,,Quintile 3,0.1708,1787.0,0.8567,1429.0,,
-102432,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Wealth,,,Quintile 4,0.2584,1944.0,0.8692,1789.0,,
-102433,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Wealth,,,Quintile 5,0.4239,2861.0,0.9334,3412.0,,
-104060,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Wealth,,,Quintile 1,0.2834,2757.0,,,,
-104061,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Wealth,,,Quintile 2,0.3372,3305.0,,,,
-104062,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Wealth,,,Quintile 3,0.4506,3107.0,,,,
-104063,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Wealth,,,Quintile 4,0.6213,2803.0,,,,
-104064,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Wealth,,,Quintile 5,0.8825,2924.0,,,,
-108378,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Wealth,,,Quintile 1,0.1,507.0,,,,
-108379,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Wealth,,,Quintile 2,0.1473,504.0,,,,
-108380,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Wealth,,,Quintile 3,0.2164,462.0,,,,
-108381,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Wealth,,,Quintile 4,0.3291,440.0,,,,
-108382,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Wealth,,,Quintile 5,0.5046,376.0,,,,
-112172,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Wealth,,,Quintile 1,0.1963,946.0,,,,
-112173,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Wealth,,,Quintile 2,0.3032,927.0,,,,
-112174,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Wealth,,,Quintile 3,0.4109,939.0,,,,
-112175,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Wealth,,,Quintile 4,0.5275,758.0,,,,
-112176,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Wealth,,,Quintile 5,0.7004,616.0,,,,
-113303,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Wealth,,,Quintile 1,0.0403,2475.0,0.1483,1187.0,,
-113304,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Wealth,,,Quintile 2,0.0571,2421.0,0.183,1193.0,,
-113305,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Wealth,,,Quintile 3,0.0611,2792.0,0.2005,1323.0,,
-113306,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Wealth,,,Quintile 4,0.0682,3146.0,0.2223,1509.0,,
-113307,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Wealth,,,Quintile 5,0.3422,3832.0,0.6751,1993.0,,
-173650,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Wealth,,,Quintile 1,0.0735,1335.0,,,,
-173651,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Wealth,,,Quintile 2,0.1673,2022.0,,,,
-173652,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Wealth,,,Quintile 3,0.3759,2654.0,,,,
-173653,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Wealth,,,Quintile 4,0.5516,2475.0,,,,
-173654,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Wealth,,,Quintile 5,0.8008,2434.0,,,,
-173812,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Wealth,,,Quintile 1,0.4437,3699.0,,,,
-173813,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Wealth,,,Quintile 2,0.5643,3524.0,,,,
-173814,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Wealth,,,Quintile 3,0.6356,3257.0,,,,
-173815,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Wealth,,,Quintile 4,0.7922,2723.0,,,,
-173816,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Wealth,,,Quintile 5,0.93,1807.0,,,,
-173866,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Wealth,,,Quintile 1,0.5423,1372.0,,,,
-173867,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Wealth,,,Quintile 2,0.7125,1106.0,,,,
-173868,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Wealth,,,Quintile 3,0.8259,931.0,,,,
-173869,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Wealth,,,Quintile 4,0.8975,767.0,,,,
-173870,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Wealth,,,Quintile 5,0.9249,530.0,,,,
-173974,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Wealth,,,Quintile 1,0.1526,1735.0,,,,
-173975,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Wealth,,,Quintile 2,0.1625,1428.0,,,,
-173976,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Wealth,,,Quintile 3,0.1916,1426.0,,,,
-173977,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Wealth,,,Quintile 4,0.3647,1667.0,,,,
-173978,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Wealth,,,Quintile 5,0.6218,1398.0,,,,
-174133,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Wealth,,,Quintile 1,0.0261,1648.0,,,,
-174134,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Wealth,,,Quintile 2,0.0837,1809.0,,,,
-174135,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Wealth,,,Quintile 3,0.1692,2050.0,,,,
-174136,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Wealth,,,Quintile 4,0.2781,2333.0,,,,
-174137,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Wealth,,,Quintile 5,0.4285,2832.0,,,,
-174169,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Wealth,,,Quintile 1,0.9352,310.0,,,,
-174170,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Wealth,,,Quintile 2,0.9954,357.0,,,,
-174171,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Wealth,,,Quintile 3,0.9991,318.0,,,,
-174172,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Wealth,,,Quintile 4,0.9959,302.0,,,,
-174173,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Wealth,,,Quintile 5,1.0,309.0,,,,
-174223,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Wealth,,,Quintile 1,0.7454,2531.0,,,,
-174224,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Wealth,,,Quintile 2,0.8678,2722.0,,,,
-174225,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Wealth,,,Quintile 3,0.9144,2469.0,,,,
-174226,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Wealth,,,Quintile 4,0.949,2046.0,,,,
-174227,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Wealth,,,Quintile 5,0.9807,1458.0,,,,
-174277,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Wealth,,,Quintile 1,0.8639,714.0,,,,
-174278,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Wealth,,,Quintile 2,0.8443,632.0,,,,
-174279,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Wealth,,,Quintile 3,0.8395,889.0,,,,
-174280,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Wealth,,,Quintile 4,0.8477,1149.0,,,,
-174281,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Wealth,,,Quintile 5,0.8109,1064.0,,,,
-174331,TON,Oceania,Upper middle income countries,Tonga,2019.0,Wealth,,,Quintile 1,0.7007,587.0,,,,
-174332,TON,Oceania,Upper middle income countries,Tonga,2019.0,Wealth,,,Quintile 2,0.8023,392.0,,,,
-174333,TON,Oceania,Upper middle income countries,Tonga,2019.0,Wealth,,,Quintile 3,0.8562,419.0,,,,
-174334,TON,Oceania,Upper middle income countries,Tonga,2019.0,Wealth,,,Quintile 4,0.8441,466.0,,,,
-174335,TON,Oceania,Upper middle income countries,Tonga,2019.0,Wealth,,,Quintile 5,0.9084,436.0,,,,
-174337,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Wealth,,,Quintile 1,0.8009,6666.0,,,,
-174338,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Wealth,,,Quintile 2,0.7123,11404.0,,,,
-174339,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Wealth,,,Quintile 3,0.8108,9505.0,,,,
-174340,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Wealth,,,Quintile 4,0.8802,6660.0,,,,
-174341,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Wealth,,,Quintile 5,0.919,3546.0,,,,
-174409,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Wealth,,,Quintile 1,0.8251,1169.0,,,,
-174410,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Wealth,,,Quintile 2,0.8764,1381.0,,,,
-174411,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Wealth,,,Quintile 3,0.895,1671.0,,,,
-174412,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Wealth,,,Quintile 4,0.929,1587.0,,,,
-174413,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Wealth,,,Quintile 5,0.9613,1229.0,,,,
-174517,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Wealth,,,Quintile 1,0.782,868.0,,,,
-174518,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Wealth,,,Quintile 2,0.8705,949.0,,,,
-174519,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Wealth,,,Quintile 3,0.8796,961.0,,,,
-174520,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Wealth,,,Quintile 4,0.9107,852.0,,,,
-174521,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Wealth,,,Quintile 5,0.9357,802.0,,,,
-174571,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Wealth,,,Quintile 1,0.841,3316.0,,,,
-174572,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Wealth,,,Quintile 2,0.8937,2888.0,,,,
-174573,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Wealth,,,Quintile 3,0.9237,2665.0,,,,
-174574,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Wealth,,,Quintile 4,0.953,2835.0,,,,
-174575,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Wealth,,,Quintile 5,0.9727,1794.0,,,,
-174679,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Wealth,,,Quintile 1,0.0163,617.0,,,,
-174680,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Wealth,,,Quintile 2,0.0364,699.0,,,,
-174681,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Wealth,,,Quintile 3,0.0761,813.0,,,,
-174682,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Wealth,,,Quintile 4,0.1799,1391.0,,,,
-174683,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Wealth,,,Quintile 5,0.3661,2197.0,,,,
-174733,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Wealth,,,Quintile 1,0.4969,1699.0,,,,
-174734,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Wealth,,,Quintile 2,0.5964,1691.0,,,,
-174735,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Wealth,,,Quintile 3,0.6223,1609.0,,,,
-174736,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Wealth,,,Quintile 4,0.7327,1584.0,,,,
-174737,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Wealth,,,Quintile 5,0.7898,1321.0,,,,
-174787,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Wealth,,,Quintile 1,0.5891,2125.0,,,,
-174788,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Wealth,,,Quintile 2,0.6847,2013.0,,,,
-174789,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Wealth,,,Quintile 3,0.7923,1917.0,,,,
-174790,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Wealth,,,Quintile 4,0.8713,1939.0,,,,
-174791,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Wealth,,,Quintile 5,0.9198,1617.0,,,,
-175131,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Wealth,,,Quintile 5,0.933,765.0,,,,
-175132,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Wealth,,,Quintile 2,0.9071,514.0,,,,
-175139,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Wealth,,,Quintile 1,0.9078,548.0,,,,
-175154,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Wealth,,,Quintile 4,0.8952,886.0,,,,
-175159,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Wealth,,,Quintile 3,0.9076,666.0,,,,
+,iso_code,region_group,income_group,country,year,Wealth,comp_lowsec_1524_m
+492,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Quintile 1,0.2164
+493,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Quintile 2,0.2322
+494,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Quintile 3,0.2374
+495,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Quintile 4,0.3464
+496,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Quintile 5,0.5456
+1149,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Quintile 1,0.046
+1150,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Quintile 2,0.0856
+1151,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Quintile 3,0.2372
+1152,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Quintile 4,0.4452
+1153,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Quintile 5,0.7164
+20049,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Quintile 1,0.983
+20050,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Quintile 2,0.9929
+20051,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Quintile 3,1.0
+20052,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Quintile 4,0.9942
+20053,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Quintile 5,0.9857
+20335,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Quintile 1,0.0843
+20336,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Quintile 2,0.1237
+20337,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Quintile 3,0.2119
+20338,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Quintile 4,0.3783
+20339,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Quintile 5,0.6049
+21645,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Quintile 1,0.0159
+21646,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Quintile 2,0.0271
+21647,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Quintile 3,0.0304
+21648,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Quintile 4,0.1319
+21649,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Quintile 5,0.2981
+26970,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Quintile 1,0.0463
+26971,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Quintile 2,0.1044
+26972,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Quintile 3,0.2304
+26973,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Quintile 4,0.2912
+26974,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Quintile 5,0.5114
+31986,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Quintile 1,0.1592
+31987,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Quintile 2,0.3033
+31988,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Quintile 3,0.3942
+31989,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Quintile 4,0.4773
+31990,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Quintile 5,0.6004
+42812,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Quintile 1,0.0874
+42813,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Quintile 2,0.1933
+42814,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Quintile 3,0.2679
+42815,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Quintile 4,0.3566
+42816,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Quintile 5,0.5603
+47783,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Quintile 1,0.107
+47784,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Quintile 2,0.2142
+47785,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Quintile 3,0.365
+47786,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Quintile 4,0.5607
+47787,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Quintile 5,0.756
+49303,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Quintile 1,0.6433
+49304,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Quintile 2,0.749
+49305,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Quintile 3,0.8573
+49306,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Quintile 4,0.9023
+49307,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Quintile 5,0.9207
+55606,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Quintile 1,0.4727
+55607,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Quintile 2,0.6541
+55608,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Quintile 3,0.766
+55609,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Quintile 4,0.8574
+55610,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Quintile 5,0.9447
+61675,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Quintile 1,0.8586
+61676,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Quintile 2,0.9282
+61677,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Quintile 3,0.9448
+61678,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Quintile 4,0.9537
+61679,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Quintile 5,0.9795
+65522,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Quintile 1,0.3964
+65523,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Quintile 2,0.6132
+65524,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Quintile 3,0.7429
+65525,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Quintile 4,0.8527
+65526,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Quintile 5,0.932
+67471,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Quintile 1,0.1413
+67472,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Quintile 2,0.1986
+67473,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Quintile 3,0.3177
+67474,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Quintile 4,0.4611
+67475,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Quintile 5,0.6449
+70050,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Quintile 1,0.0516
+70051,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Quintile 2,0.0924
+70052,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Quintile 3,0.2034
+70053,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Quintile 4,0.3527
+70054,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Quintile 5,0.5425
+79799,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Quintile 1,0.1089
+79800,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Quintile 2,0.2434
+79801,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Quintile 3,0.3858
+79802,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Quintile 4,0.5595
+79803,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Quintile 5,0.7553
+83954,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Quintile 1,0.059
+83955,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Quintile 2,0.089
+83956,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Quintile 3,0.1212
+83957,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Quintile 4,0.2222
+83958,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Quintile 5,0.4821
+98568,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Quintile 1,0.7237
+98569,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Quintile 2,0.7999
+98570,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Quintile 3,0.7578
+98571,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Quintile 4,0.8106
+98572,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Quintile 5,0.8604
+102429,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Quintile 1,0.0668
+102430,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Quintile 2,0.0973
+102431,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Quintile 3,0.1708
+102432,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Quintile 4,0.2584
+102433,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Quintile 5,0.4239
+104060,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Quintile 1,0.2834
+104061,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Quintile 2,0.3372
+104062,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Quintile 3,0.4506
+104063,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Quintile 4,0.6213
+104064,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Quintile 5,0.8825
+108378,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Quintile 1,0.1
+108379,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Quintile 2,0.1473
+108380,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Quintile 3,0.2164
+108381,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Quintile 4,0.3291
+108382,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Quintile 5,0.5046
+112172,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Quintile 1,0.1963
+112173,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Quintile 2,0.3032
+112174,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Quintile 3,0.4109
+112175,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Quintile 4,0.5275
+112176,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Quintile 5,0.7004
+113303,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Quintile 1,0.0403
+113304,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Quintile 2,0.0571
+113305,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Quintile 3,0.0611
+113306,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Quintile 4,0.0682
+113307,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Quintile 5,0.3422
+173650,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Quintile 1,0.0735
+173651,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Quintile 2,0.1673
+173652,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Quintile 3,0.3759
+173653,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Quintile 4,0.5516
+173654,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Quintile 5,0.8008
+173812,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Quintile 1,0.4437
+173813,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Quintile 2,0.5643
+173814,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Quintile 3,0.6356
+173815,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Quintile 4,0.7922
+173816,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Quintile 5,0.93
+173866,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 1,0.5423
+173867,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 2,0.7125
+173868,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 3,0.8259
+173869,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 4,0.8975
+173870,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 5,0.9249
+173974,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Quintile 1,0.1526
+173975,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Quintile 2,0.1625
+173976,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Quintile 3,0.1916
+173977,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Quintile 4,0.3647
+173978,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Quintile 5,0.6218
+174133,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Quintile 1,0.0261
+174134,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Quintile 2,0.0837
+174135,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Quintile 3,0.1692
+174136,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Quintile 4,0.2781
+174137,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Quintile 5,0.4285
+174169,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Quintile 1,0.9352
+174170,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Quintile 2,0.9954
+174171,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Quintile 3,0.9991
+174172,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Quintile 4,0.9959
+174173,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Quintile 5,1.0
+174223,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Quintile 1,0.7454
+174224,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Quintile 2,0.8678
+174225,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Quintile 3,0.9144
+174226,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Quintile 4,0.949
+174227,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Quintile 5,0.9807
+174277,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Quintile 1,0.8639
+174278,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Quintile 2,0.8443
+174279,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Quintile 3,0.8395
+174280,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Quintile 4,0.8477
+174281,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Quintile 5,0.8109
+174331,TON,Oceania,Upper middle income countries,Tonga,2019.0,Quintile 1,0.7007
+174332,TON,Oceania,Upper middle income countries,Tonga,2019.0,Quintile 2,0.8023
+174333,TON,Oceania,Upper middle income countries,Tonga,2019.0,Quintile 3,0.8562
+174334,TON,Oceania,Upper middle income countries,Tonga,2019.0,Quintile 4,0.8441
+174335,TON,Oceania,Upper middle income countries,Tonga,2019.0,Quintile 5,0.9084
+174337,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Quintile 1,0.8009
+174338,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Quintile 2,0.7123
+174339,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Quintile 3,0.8108
+174340,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Quintile 4,0.8802
+174341,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Quintile 5,0.919
+174409,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Quintile 1,0.8251
+174410,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Quintile 2,0.8764
+174411,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Quintile 3,0.895
+174412,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Quintile 4,0.929
+174413,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Quintile 5,0.9613
+174517,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Quintile 1,0.782
+174518,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Quintile 2,0.8705
+174519,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Quintile 3,0.8796
+174520,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Quintile 4,0.9107
+174521,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Quintile 5,0.9357
+174571,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 1,0.841
+174572,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 2,0.8937
+174573,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 3,0.9237
+174574,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 4,0.953
+174575,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 5,0.9727
+174679,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Quintile 1,0.0163
+174680,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Quintile 2,0.0364
+174681,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Quintile 3,0.0761
+174682,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Quintile 4,0.1799
+174683,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Quintile 5,0.3661
+174733,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Quintile 1,0.4969
+174734,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Quintile 2,0.5964
+174735,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Quintile 3,0.6223
+174736,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Quintile 4,0.7327
+174737,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Quintile 5,0.7898
+174787,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Quintile 1,0.5891
+174788,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Quintile 2,0.6847
+174789,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Quintile 3,0.7923
+174790,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Quintile 4,0.8713
+174791,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Quintile 5,0.9198
+175131,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Quintile 5,0.933
+175132,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Quintile 2,0.9071
+175139,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Quintile 1,0.9078
+175154,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Quintile 4,0.8952
+175159,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Quintile 3,0.9076

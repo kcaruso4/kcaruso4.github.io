@@ -1,87 +1,87 @@
-,iso_code,region_group,income_group,country,year,category,Sex,Location,Wealth,comp_lowsec_1524_m,comp_lowsec_1524_no,literacy_1524_m,literacy_1524_no,rlevel4_m,rlevel2_m
-94,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Sex,Female,,,0.2087,21328.0,0.2897,8640.0,,
-95,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Sex,Male,,,0.4391,21372.0,0.804,3712.0,,
-940,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Sex,Female,,,0.309,6627.0,,,,
-941,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Sex,Male,,,0.4157,5413.0,,,,
-20010,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Sex,Female,,,0.9926,465.0,1.0,2722.0,,
-20011,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Sex,Male,,,0.9903,526.0,1.0,2599.0,,
-20125,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Sex,Female,,,0.2895,6230.0,0.6334,5007.0,,
-20126,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Sex,Male,,,0.2971,6122.0,,,,
-21435,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Sex,Female,,,0.0846,5519.0,0.2763,4522.0,,
-21436,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Sex,Male,,,0.1517,3993.0,,,,
-26826,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Sex,Female,,,0.2194,4720.0,,,,
-26827,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Sex,Male,,,0.3105,4275.0,,,,
-31935,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Sex,Female,,,0.4135,2406.0,0.7859,3164.0,,
-31936,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Sex,Male,,,0.3856,2117.0,0.85,1347.0,,
-33060,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Sex,Female,,,0.9865,2716.0,,,,
-33061,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Sex,Male,,,0.9679,1704.0,,,,
-42680,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Sex,Female,,,0.3141,3529.0,0.9377,2325.0,,
-42681,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Sex,Male,,,0.2995,3237.0,0.9488,1809.0,,
-47664,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Sex,Female,,,0.391,11135.0,0.8984,13105.0,,
-47665,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Sex,Male,,,0.4218,10056.0,0.9439,5260.0,,
-49214,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Sex,Female,,,0.8615,2220.0,1.0,4722.0,,
-49215,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Sex,Male,,,0.7715,1766.0,,,,
-55166,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Sex,Female,,,0.7088,274487.0,,,,
-55167,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Sex,Male,,,0.7807,266029.0,,,,
-61626,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Sex,Female,,,0.9348,1690.0,0.9972,5606.0,,
-61627,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Sex,Male,,,0.9306,1616.0,,,,
-65372,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Sex,Female,,,0.7416,13589.0,0.9231,15498.0,,
-65373,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Sex,Male,,,0.7198,12944.0,0.9402,6815.0,,
-67239,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Sex,Female,,,0.3643,6658.0,0.8176,7944.0,,
-67240,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Sex,Male,,,0.375,6667.0,0.8131,2828.0,,
-69947,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Sex,Female,,,0.233,3636.0,0.632,3909.0,,
-69948,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Sex,Male,,,0.3494,3500.0,0.8375,2289.0,,
-79616,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Sex,Female,,,0.4292,4337.0,,,,
-79617,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Sex,Male,,,0.4124,3967.0,,,,
-83871,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Sex,Female,,,0.1964,10972.0,,,,
-83872,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Sex,Male,,,0.2179,11420.0,,,,
-98432,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Sex,Female,,,0.8466,6103.0,0.9869,9809.0,,
-98433,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Sex,Male,,,0.7395,6446.0,,,,
-102351,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Sex,Female,,,0.2335,5156.0,0.8574,6273.0,,
-102352,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Sex,Male,,,0.2157,4649.0,0.8426,2828.0,,
-103876,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Sex,Female,,,0.5193,7376.0,1.0,7934.0,,
-103877,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Sex,Male,,,0.5545,7518.0,,,,
-108321,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Sex,Female,,,0.2781,1195.0,1.0,566.0,,
-108322,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Sex,Male,,,0.2533,1094.0,,,,
-112111,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Sex,Female,,,0.4383,2041.0,1.0,2076.0,,
-112112,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Sex,Male,,,0.4177,2145.0,,,,
-112997,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Sex,Female,,,0.0911,7498.0,0.3314,7205.0,,
-112998,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Sex,Male,,,0.1767,7168.0,,,,
-173637,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Sex,Female,,,0.4093,5815.0,,,,
-173638,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Sex,Male,,,0.4621,5105.0,,,,
-173799,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Sex,Female,,,0.663,7847.0,,,,
-173800,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Sex,Male,,,0.7513,7163.0,,,,
-173853,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Sex,Female,,,0.8073,2506.0,,,,
-173854,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Sex,Male,,,0.7459,2200.0,,,,
-173961,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Sex,Female,,,0.3147,3677.0,,,,
-173962,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Sex,Male,,,0.3752,3977.0,,,,
-174120,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Sex,Female,,,0.1586,5707.0,,,,
-174121,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Sex,Male,,,0.2929,4965.0,,,,
-174156,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Sex,Female,,,0.9806,794.0,,,,
-174157,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Sex,Male,,,0.993,802.0,,,,
-174210,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Sex,Female,,,0.9375,5869.0,,,,
-174211,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Sex,Male,,,0.8603,5357.0,,,,
-174264,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Sex,Female,,,0.8512,2312.0,,,,
-174265,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Sex,Male,,,0.8314,2136.0,,,,
-174318,TON,Oceania,Upper middle income countries,Tonga,2019.0,Sex,Female,,,0.8658,1190.0,,,,
-174319,TON,Oceania,Upper middle income countries,Tonga,2019.0,Sex,Male,,,0.776,1110.0,,,,
-174342,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Sex,Female,,,0.8394,19255.0,,,,
-174343,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Sex,Male,,,0.7859,19892.0,,,,
-174414,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Sex,Female,,,0.896,3566.0,,,,
-174415,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Sex,Male,,,0.8996,3477.0,,,,
-174522,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Sex,Female,,,0.9035,2100.0,,,,
-174523,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Sex,Male,,,0.8478,2338.0,,,,
-174576,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Sex,Female,,,0.8972,13412.0,,,,
-174577,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Sex,Male,,,0.8661,12796.0,,,,
-174684,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Sex,Female,,,0.146,3184.0,,,,
-174685,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Sex,Male,,,0.1863,2533.0,,,,
-174738,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Sex,Female,,,0.6817,4066.0,,,,
-174739,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Sex,Male,,,0.6022,3837.0,,,,
-174792,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Sex,Female,,,0.8028,4786.0,,,,
-174793,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Sex,Male,,,0.7452,4908.0,,,,
-174949,SSD,Sub-Saharan Africa,Low income countries,South Sudan,2017.0,Sex,Female,,,0.6073,623.0,,,,
-174950,SSD,Sub-Saharan Africa,Low income countries,South Sudan,2017.0,Sex,Male,,,0.643,610.0,,,,
-174952,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Sex,Female,,,0.1892,3609.0,,,,
-174953,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Sex,Male,,,0.1777,3492.0,,,,
-175123,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Sex,Male,,,0.9028,1671.0,,,,
-175136,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Sex,Female,,,0.9185,1708.0,,,,
+,iso_code,region_group,income_group,country,year,Sex,comp_lowsec_1524_m
+94,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Female,0.2087
+95,AFG,Central and Southern Asia,Low income countries,Afghanistan,2015.0,Male,0.4391
+940,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Female,0.309
+941,AGO,Sub-Saharan Africa,Lower middle income countries,Angola,2015.0,Male,0.4157
+20010,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Female,0.9926
+20011,BRB,Latin America and the Caribbean,High income countries,Barbados,2012.0,Male,0.9903
+20125,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Female,0.2895
+20126,BTN,Central and Southern Asia,Lower middle income countries,Bhutan,2010.0,Male,0.2971
+21435,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Female,0.0846
+21436,CAF,Sub-Saharan Africa,Low income countries,C. A. R.,2010.0,Male,0.1517
+26826,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Female,0.2194
+26827,CIV,Sub-Saharan Africa,Lower middle income countries,Côte d'Ivoire,2016.0,Male,0.3105
+31935,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Female,0.4135
+31936,COM,Sub-Saharan Africa,Lower middle income countries,Comoros,2012.0,Male,0.3856
+33060,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Female,0.9865
+33061,CUB,Latin America and the Caribbean,Upper middle income countries,Cuba,2014.0,Male,0.9679
+42680,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Female,0.3141
+42681,GAB,Sub-Saharan Africa,Upper middle income countries,Gabon,2012.0,Male,0.2995
+47664,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Female,0.391
+47665,GTM,Latin America and the Caribbean,Upper middle income countries,Guatemala,2015.0,Male,0.4218
+49214,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Female,0.8615
+49215,GUY,Latin America and the Caribbean,Upper middle income countries,Guyana,2014.0,Male,0.7715
+55166,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Female,0.7088
+55167,IND,Central and Southern Asia,Lower middle income countries,India,2015.0,Male,0.7807
+61626,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Female,0.9348
+61627,JAM,Latin America and the Caribbean,Upper middle income countries,Jamaica,2011.0,Male,0.9306
+65372,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Female,0.7416
+65373,KEN,Sub-Saharan Africa,Lower middle income countries,Kenya,2014.0,Male,0.7198
+67239,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Female,0.3643
+67240,KHM,Eastern and South-eastern Asia,Lower middle income countries,Cambodia,2014.0,Male,0.375
+69947,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Female,0.233
+69948,LBR,Sub-Saharan Africa,Low income countries,Liberia,2013.0,Male,0.3494
+79616,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Female,0.4292
+79617,MMR,Eastern and South-eastern Asia,Lower middle income countries,Myanmar,2016.0,Male,0.4124
+83871,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Female,0.1964
+83872,MWI,Sub-Saharan Africa,Low income countries,Malawi,2015.0,Male,0.2179
+98432,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Female,0.8466
+98433,PSE,Northern Africa and Western Asia,Lower middle income countries,Palestine,2014.0,Male,0.7395
+102351,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Female,0.2335
+102352,RWA,Sub-Saharan Africa,Low income countries,Rwanda,2015.0,Male,0.2157
+103876,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Female,0.5193
+103877,SDN,Northern Africa and Western Asia,Low income countries,Sudan,2014.0,Male,0.5545
+108321,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Female,0.2781
+108322,STP,Sub-Saharan Africa,Lower middle income countries,S. Tome/Principe,2014.0,Male,0.2533
+112111,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Female,0.4383
+112112,SWZ,Sub-Saharan Africa,Lower middle income countries,Eswatini,2014.0,Male,0.4177
+112997,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Female,0.0911
+112998,TCD,Sub-Saharan Africa,Low income countries,Chad,2015.0,Male,0.1767
+173637,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Female,0.4093
+173638,CMR,Sub-Saharan Africa,Lower middle income countries,Cameroon,2018.0,Male,0.4621
+173799,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Female,0.663
+173800,COD,Sub-Saharan Africa,Low income countries,D. R. Congo,2018.0,Male,0.7513
+173853,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Female,0.8073
+173854,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Male,0.7459
+173961,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Female,0.3147
+173962,GNB,Sub-Saharan Africa,Low income countries,Guinea-Bissau,2019.0,Male,0.3752
+174120,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Female,0.1586
+174121,SOM,Sub-Saharan Africa,Low income countries,Somalia,2011.0,Male,0.2929
+174156,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Female,0.9806
+174157,SRB,Europe and Northern America,Upper middle income countries,Serbia,2019.0,Male,0.993
+174210,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Female,0.9375
+174211,THA,Eastern and South-eastern Asia,Upper middle income countries,Thailand,2019.0,Male,0.8603
+174264,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Female,0.8512
+174265,TKM,Central and Southern Asia,Upper middle income countries,Turkmenistan,2019.0,Male,0.8314
+174318,TON,Oceania,Upper middle income countries,Tonga,2019.0,Female,0.8658
+174319,TON,Oceania,Upper middle income countries,Tonga,2019.0,Male,0.776
+174342,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Female,0.8394
+174343,ARG,Latin America and the Caribbean,Upper middle income countries,Argentina,2019.0,Male,0.7859
+174414,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Female,0.896
+174415,BOL,Latin America and the Caribbean,Lower middle income countries,Bolivia,2019.0,Male,0.8996
+174522,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Female,0.9035
+174523,CHN,Eastern and South-eastern Asia,Upper middle income countries,China,2016.0,Male,0.8478
+174576,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Female,0.8972
+174577,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Male,0.8661
+174684,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Female,0.146
+174685,MOZ,Sub-Saharan Africa,Low income countries,Mozambique,2015.0,Male,0.1863
+174738,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Female,0.6817
+174739,NAM,Sub-Saharan Africa,Upper middle income countries,Namibia,2015.0,Male,0.6022
+174792,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Female,0.8028
+174793,PRY,Latin America and the Caribbean,Upper middle income countries,Paraguay,2019.0,Male,0.7452
+174949,SSD,Sub-Saharan Africa,Low income countries,South Sudan,2017.0,Female,0.6073
+174950,SSD,Sub-Saharan Africa,Low income countries,South Sudan,2017.0,Male,0.643
+174952,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Female,0.1892
+174953,TZA,Sub-Saharan Africa,Lower middle income countries,U. R. Tanzania,2017.0,Male,0.1777
+175123,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Male,0.9028
+175136,KGZ,Central and Southern Asia,Lower middle income countries,Kyrgyzstan,2018.0,Female,0.9185
