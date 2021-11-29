@@ -306,14 +306,6 @@
                 iqr = q3 - q1;
                 min = q1 - 1.5 * iqr;
                 max = q3 + 1.5 * iqr;
-                if (min < 0) {
-                    console.log({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
-                    min = 0;
-                }
-                if (max > 1) {
-                    console.log({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
-                    max = 1
-                }
                 return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
             })
             .entries(data)
