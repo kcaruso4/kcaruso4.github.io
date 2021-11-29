@@ -266,7 +266,7 @@
                 });
                 console.log(finalData);
                 return finalData;
-            }); })
+            })
             .enter().append("rect")
                 .attr("x", function(d) { return xSubgroup(d.key); })
                 .attr("y", function(d) { return y(d.value[0]); })
