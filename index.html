@@ -69,6 +69,7 @@
             .value(function(d, key) {
                 return d.values[key].rlevel2_m_prop_of_total
             })
+            .order(d3.stackOrderDescending)
             (dataAgg)
 
             console.log(stackedData)
