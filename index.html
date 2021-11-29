@@ -200,15 +200,15 @@
             .padding([0.05])
 
             // color
-        //     var color = d3.scaleOrdinal()
-        //     .domain(subgroups)
-        //     .range(d3.schemeSet2)
+            var color = d3.scaleOrdinal()
+            .domain(subgroups)
+            .range(d3.schemeSet2)
 
-        //     var dataAgg = d3.nest()
-        //     .key(function(d) {return d.country})
-        //     .entries(data);
+            var dataAgg = d3.nest()
+            .key(function(d) {return d.country})
+            .entries(data);
 
-        //     console.log(dataAgg)
+            console.log(dataAgg)
 
         //     // // stack the data
         //     // var groups = ["Female ", "Male "]
