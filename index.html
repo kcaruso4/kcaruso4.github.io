@@ -1,9 +1,64 @@
+<!DOCTYPE html>
+
 <html>
-    <h1>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <h1 class="inGreen">
         Welcome to Github Pages
     </h1>
 
     <p>
         this is a website placeholder
     </p>
+
+    <p>This is a <a href="https://www.d3-graph-gallery.com"> a link to the d3 graph gallery </a></p>
+
+    <div id="scatter_area"></div>
+      
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <script>
+        d3
+          .select(".target")  // select the elements that have the class 'target'
+          .style("stroke-width", 8) // change their style: stroke width is not equal to 8 pixels
+    </script>
+
+    <script>
+    var margin = {top: 10, right: 40, bottom: 30, left: 30},
+        width = 450 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom; 
+
+    var svg = d3.select("#scatter_area")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", 
+    "translate(" + margin.left + "," + margin.top + ")");
+
+    var data = [{x:10, y:20}, {x:40, y:90}, {x:80, y:50}]
+
+    var x = d3.scaleLinear()
+    .domain([0, 100])
+    .range([0, width]);
+
+    svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
+
+    var y = d3.scaleLinear()
+    .domain([0, 100])
+    .range([height, 0]);
+
+    svg.append("g")
+    .call(d3.axisLeft(y));
+
+    svg.selectAll("whatever")
+    .data(data)
+    .enter()
+    .append("circle")
+    .attr("cx", function(d){return x(d.x)})
+    .attr("cy", function(d){return y(d.y)})
+    .attr("r", 7)
+    </script>
 </html>

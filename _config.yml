@@ -1,3 +1,14 @@
 theme: jekyll-theme-cayman
 title: Global Educational Attainment Disparities 
 description: This project analyzes factors that pertain to global educational attainment disparities. 
+
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
