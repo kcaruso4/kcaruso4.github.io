@@ -16,7 +16,7 @@
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
     <script>
-        var margin = {top: 10, right: 30, bottom: 20, left: 50},
+        var margin = {top: 10, right: 30, bottom: 0, left: 50},
             width = 900 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
 
@@ -206,6 +206,7 @@
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
 
                 // //highlight all that are in the subgroup with opacity 1
+                console.log(subgroupName)
                 d3.selectAll("." + subgroupName).style("opacity", 1)
             }
 
@@ -220,7 +221,7 @@
             .data(dataAgg)
             .enter()
             .append("g")
-            .attr("transform", function(d) { console.log(d); return "translate(" + x(d.key) + ",0)"; })
+            .attr("transform", function(d) { return "translate(" + x(d.key) + ",0)"; })
             .attr("class", function(d){ 
                 return "mySecondRect" + d.key })
             .selectAll("rect")
