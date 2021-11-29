@@ -212,7 +212,6 @@
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
-                console.log(d)
                 tooltipSecond
                 .html("Country: " + subgroupName + "<br>" + "Category: " + d.key + "<br>" + "Value: " + d.value)
                 .style("opacity", 1)
@@ -244,7 +243,7 @@
             .append("g")
             .attr("transform", function(d) { return "translate(" + x(d.key) + ",0)"; })
             .attr("class", function(d){ 
-                return "mySecondRect" + d.key })
+                return "mySecondRect " + d.key })
             .selectAll("rect")
             .data(function(d) { 
                 var finalData = [];
