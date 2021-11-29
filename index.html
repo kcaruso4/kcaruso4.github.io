@@ -332,8 +332,8 @@
             .append("line")
             .attr("x1", function(d){return(x(d.key))})
             .attr("x2", function(d){return(x(d.key))})
-            .attr("y1", function(d){return(y(d.value.min))})
-            .attr("y2", function(d){ return(y(d.value.max)) })
+            .attr("y1", function(d){return(y(Math.max(d.value.min, 0)))})
+            .attr("y2", function(d){ return(y(Math.min(d.value.max, 1))) })
             .attr("stroke", "black")
             .style("width", 40)
             // create rectangle for main box
@@ -349,17 +349,17 @@
             .attr("stroke", "black")
             .style("fill", "#69b3a2")
 
-            // // show median
-            wealthReadingSvg.selectAll("medainLines")
-            .data(boxData)
-            .enter()
-            .append("line")
-            .attr("x1", function(d){return(x(d.key)-boxWidth/2) })
-            .attr("x2", function(d){return(x(d.key)+boxWidth/2) })
-            .attr("y1", function(d){return(y(d.value.median))})
-            .attr("y2", function(d){return(y(d.value.median))})
-            .attr("stroke", "black")
-            .style("width", 80)
+            // // // show median
+            // wealthReadingSvg.selectAll("medainLines")
+            // .data(boxData)
+            // .enter()
+            // .append("line")
+            // .attr("x1", function(d){return(x(d.key)-boxWidth/2) })
+            // .attr("x2", function(d){return(x(d.key)+boxWidth/2) })
+            // .attr("y1", function(d){return(y(d.value.median))})
+            // .attr("y2", function(d){return(y(d.value.median))})
+            // .attr("stroke", "black")
+            // .style("width", 80)
         })
 
     </script>
