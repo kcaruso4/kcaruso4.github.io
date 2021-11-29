@@ -61,7 +61,7 @@
             .key(function(d) {return d.country})
             .entries(data);
 
-            console.log(dataAgg)
+            console.log(dataAgg.slice(0, -1))
             // stack the data
             var groups = ["Female", "Male"]
             var groupId = [1,2]
@@ -70,7 +70,7 @@
             .value(function(d, key) {
                 return d.values[key].rlevel2_m_prop_of_total
             })
-            (dataAgg)
+            (dataAgg.slice(0, -1))
 
             console.log(stackedData)
 
