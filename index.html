@@ -88,7 +88,7 @@
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
-                var subgroupValue = d.data.values[subgroupName].comp_lowsec_1524_m_prop_of_total;
+                var subgroupValue = d.data.values[subgroupName].rlevel2_m_prop_of_total;
                 tooltip
                 .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1)
@@ -139,21 +139,11 @@
     <div id="sex_comp"></div>
 
 
-    <!-- <script>
+    <script>
         var margin = {top: 10, right: 30, bottom: 20, left: 50},
             width = 900 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
 
-        // creating tooltip 
-        var tooltip = d3.select("#sex_comp")
-        .append("div")
-        .style("opacity", 0)
-        .attr("class", "tooltip")
-        .style("background-color", "white")
-        .style("border", "solid")
-        .style("border-width", "1px")
-        .style("border-radius", "5px")
-        .style("padding", "10px")
 
         // append the svg object to the body of the page
         var svg = d3.select("#sex_comp")
@@ -165,6 +155,17 @@
                 "translate(" + margin.left + "," + margin.top + ")");
 
         d3.csv("sex_comp.csv", function(data) {
+            // creating tooltip 
+            var tooltip = d3.select("#sex_comp")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            .style("padding", "10px")
+
             //subgroups 
             var subgroups = [0,1]
 
@@ -206,7 +207,7 @@
             var stackedData = d3.stack()
             .keys(groupId)
             .value(function(d, key) {
-                return d.values[key].rlevel2_m_prop_of_total
+                return d.values[key].comp_lowsec_1524_m_prop_of_total
             })
             (dataAgg)
 
@@ -215,7 +216,7 @@
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
-                var subgroupValue = d.data.values[subgroupName].rlevel2_m_prop_of_total;
+                var subgroupValue = d.data.values[subgroupName].comp_lowsec_1524_m_prop_of_total;
                 tooltip
                 .html("Country: " + d.data.key + "<br>"  + "Category: " + groups[subgroupName] + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1)
@@ -260,5 +261,5 @@
             .on("mouseleave", mouseleave)
         })
 
-    </script> -->
+    </script>
 </html>
