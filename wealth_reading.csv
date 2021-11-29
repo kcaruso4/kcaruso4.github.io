@@ -1,23 +1,23 @@
 index_new,iso_code,region_group,income_group,country,year,Wealth,rlevel2_m,rlevel2_m_prop_of_total,rlevel2_m_prop_of_total_sum
+55,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 1,0.8391,0.16782,0.8924
+56,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 2,0.8505,0.1701,0.8923999999999999
+57,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 3,0.9061,0.18122,0.8924
 58,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 4,0.9311,0.18622,0.8924000000000001
 59,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 5,0.9352,0.18704,0.8924000000000001
-55,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 1,0.8391,0.16782,0.8924
-57,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 3,0.9061,0.18122,0.8924
-56,EST,Europe and Northern America,High income countries,Estonia,2018.0,Quintile 2,0.8505,0.1701,0.8923999999999999
 85,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Quintile 1,0.8693,0.17386,0.8917
-87,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Quintile 3,0.8995,0.1799,0.8917
 86,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Quintile 2,0.8854,0.17708,0.8916999999999999
+87,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Quintile 3,0.8995,0.1799,0.8917
 88,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Quintile 4,0.8845,0.1769,0.8916999999999999
 89,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Quintile 5,0.9198,0.18395999999999998,0.8916999999999999
 125,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Quintile 1,0.781,0.1562,0.88216
-128,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Quintile 4,0.8818,0.17636000000000002,0.88216
-129,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Quintile 5,0.9617,0.19234,0.88216
 126,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Quintile 2,0.8748,0.17496,0.8821599999999999
 127,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Quintile 3,0.9115,0.1823,0.8821599999999999
+128,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Quintile 4,0.8818,0.17636000000000002,0.88216
+129,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Quintile 5,0.9617,0.19234,0.88216
 5,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Quintile 1,0.7844,0.15688,0.8638600000000001
+6,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Quintile 2,0.8446,0.16892000000000001,0.86386
 7,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Quintile 3,0.8477,0.16954,0.8638600000000001
 8,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Quintile 4,0.8981,0.17962,0.8638600000000001
-6,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Quintile 2,0.8446,0.16892000000000001,0.86386
 9,VNM,Eastern and South-eastern Asia,Lower middle income countries,Viet Nam,2015.0,Quintile 5,0.9445,0.1889,0.86386
 15,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Quintile 1,0.6847,0.13694,0.84568
 16,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Quintile 2,0.83,0.16599999999999998,0.84568
@@ -25,69 +25,69 @@ index_new,iso_code,region_group,income_group,country,year,Wealth,rlevel2_m,rleve
 18,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Quintile 4,0.9082,0.18164,0.84568
 19,TTO,Latin America and the Caribbean,High income countries,Trinidad/Tobago,2016.0,Quintile 5,0.9529,0.19058,0.84568
 60,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Quintile 1,0.7271,0.14542,0.83516
+61,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Quintile 2,0.8138,0.16276,0.8351599999999999
 62,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Quintile 3,0.8355,0.1671,0.83516
 63,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Quintile 4,0.8798,0.17596,0.83516
 64,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Quintile 5,0.9196,0.18392,0.83516
-61,GBR,Europe and Northern America,High income countries,United Kingdom,2018.0,Quintile 2,0.8138,0.16276,0.8351599999999999
 110,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Quintile 1,0.6987,0.13974,0.8155600000000001
-113,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Quintile 4,0.8728,0.17456,0.8155600000000001
-114,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Quintile 5,0.9301,0.18602000000000002,0.8155600000000001
 111,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Quintile 2,0.7829,0.15658,0.81556
 112,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Quintile 3,0.7933,0.15866,0.8155599999999998
+113,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Quintile 4,0.8728,0.17456,0.8155600000000001
+114,SVN,Europe and Northern America,High income countries,Slovenia,2018.0,Quintile 5,0.9301,0.18602000000000002,0.8155600000000001
 20,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Quintile 1,0.612,0.1224,0.7965800000000001
-23,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Quintile 4,0.8959,0.17918,0.7965800000000001
-24,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Quintile 5,0.9362,0.18724000000000002,0.7965800000000001
 21,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Quintile 2,0.7306,0.14612,0.79658
 22,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Quintile 3,0.8082,0.16164,0.79658
+23,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Quintile 4,0.8959,0.17918,0.7965800000000001
+24,BEL,Europe and Northern America,High income countries,Belgium,2018.0,Quintile 5,0.9362,0.18724000000000002,0.7965800000000001
 35,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Quintile 1,0.5928,0.11856,0.77166
 36,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Quintile 2,0.7224,0.14448,0.77166
 37,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Quintile 3,0.7887,0.15774,0.77166
 38,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Quintile 4,0.8505,0.1701,0.77166
 39,CHE,Europe and Northern America,High income countries,Switzerland,2018.0,Quintile 5,0.9039,0.18078,0.77166
-26,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Quintile 2,0.7069,0.14138,0.77002
-28,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Quintile 4,0.879,0.1758,0.77002
 25,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Quintile 1,0.5409,0.10818000000000001,0.7700199999999999
+26,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Quintile 2,0.7069,0.14138,0.77002
 27,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Quintile 3,0.7872,0.15744,0.7700199999999999
+28,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Quintile 4,0.879,0.1758,0.77002
 29,BLR,Europe and Northern America,Upper middle income countries,Belarus,2018.0,Quintile 5,0.9361,0.18722,0.7700199999999999
 100,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Quintile 1,0.6328,0.12656,0.7664200000000001
-104,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Quintile 5,0.8984,0.17968,0.7664200000000001
 101,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Quintile 2,0.7166,0.14332,0.76642
 102,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Quintile 3,0.7581,0.15162,0.76642
 103,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Quintile 4,0.8262,0.16524,0.76642
+104,NLD,Europe and Northern America,High income countries,Netherlands,2018.0,Quintile 5,0.8984,0.17968,0.7664200000000001
 75,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Quintile 1,0.603,0.1206,0.74472
 76,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Quintile 2,0.6858,0.13716,0.74472
 77,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Quintile 3,0.772,0.1544,0.74472
 79,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Quintile 5,0.8382,0.16763999999999998,0.74472
 78,ISL,Europe and Northern America,High income countries,Iceland,2018.0,Quintile 4,0.8246,0.16492,0.7447199999999999
 115,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Quintile 1,0.5434,0.10868,0.74448
+116,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Quintile 2,0.6817,0.13634,0.7444799999999999
 117,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Quintile 3,0.779,0.1558,0.74448
 118,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Quintile 4,0.806,0.1612,0.74448
 119,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Quintile 5,0.9123,0.18246,0.74448
-116,UKR,Europe and Northern America,Lower middle income countries,Ukraine,2018.0,Quintile 2,0.6817,0.13634,0.7444799999999999
 80,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Quintile 1,0.5028,0.10056000000000001,0.7114
 81,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Quintile 2,0.612,0.1224,0.7114
+82,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Quintile 3,0.7042,0.14084000000000002,0.7113999999999999
 83,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Quintile 4,0.8349,0.16698,0.7114
 84,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Quintile 5,0.9031,0.18062,0.7114
-82,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Quintile 3,0.7042,0.14084000000000002,0.7113999999999999
 65,GRC,Europe and Northern America,High income countries,Greece,2018.0,Quintile 1,0.5233,0.10466,0.69898
-67,GRC,Europe and Northern America,High income countries,Greece,2018.0,Quintile 3,0.6914,0.13828000000000001,0.69898
 66,GRC,Europe and Northern America,High income countries,Greece,2018.0,Quintile 2,0.6346,0.12692,0.6989799999999999
+67,GRC,Europe and Northern America,High income countries,Greece,2018.0,Quintile 3,0.6914,0.13828000000000001,0.69898
 68,GRC,Europe and Northern America,High income countries,Greece,2018.0,Quintile 4,0.7824,0.15648,0.6989799999999999
 69,GRC,Europe and Northern America,High income countries,Greece,2018.0,Quintile 5,0.8632,0.17264,0.6989799999999999
-121,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Quintile 2,0.4882,0.09764,0.5821200000000001
 120,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Quintile 1,0.3449,0.06898,0.58212
+121,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Quintile 2,0.4882,0.09764,0.5821200000000001
 122,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Quintile 3,0.5955,0.11910000000000001,0.58212
 123,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Quintile 4,0.665,0.133,0.58212
 124,URY,Latin America and the Caribbean,High income countries,Uruguay,2018.0,Quintile 5,0.817,0.1634,0.58212
 10,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Quintile 1,0.5161,0.10322,0.5784400000000001
 11,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Quintile 2,0.515,0.10300000000000001,0.5784400000000001
-14,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Quintile 5,0.7591,0.15182,0.5784400000000001
 12,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Quintile 3,0.5434,0.10868,0.57844
 13,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Quintile 4,0.5586,0.11172,0.57844
+14,BFA,Sub-Saharan Africa,Low income countries,Burkina Faso,2014.0,Quintile 5,0.7591,0.15182,0.5784400000000001
 45,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 1,0.3864,0.07728,0.57808
 46,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 2,0.481,0.0962,0.57808
-48,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 4,0.648,0.1296,0.57808
 47,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 3,0.5547,0.11094,0.5780799999999999
+48,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 4,0.648,0.1296,0.57808
 49,CRI,Latin America and the Caribbean,Upper middle income countries,Costa Rica,2018.0,Quintile 5,0.8203,0.16406,0.5780799999999999
 90,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Quintile 1,0.3165,0.0633,0.57298
 91,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Quintile 2,0.5292,0.10584,0.57298
@@ -95,37 +95,37 @@ index_new,iso_code,region_group,income_group,country,year,Wealth,rlevel2_m,rleve
 93,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Quintile 4,0.668,0.1336,0.57298
 94,MDA,Europe and Northern America,Lower middle income countries,Rep. Moldova,2018.0,Quintile 5,0.81,0.162,0.57298
 95,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Quintile 1,0.3444,0.06888,0.5679000000000001
-99,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Quintile 5,0.7785,0.1557,0.5679000000000001
 96,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Quintile 2,0.5074,0.10147999999999999,0.5679
 97,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Quintile 3,0.5843,0.11686,0.5679
 98,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Quintile 4,0.6249,0.12498000000000001,0.5679
+99,MEX,Latin America and the Caribbean,Upper middle income countries,Mexico,2018.0,Quintile 5,0.7785,0.1557,0.5679000000000001
 40,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 1,0.3057,0.06114000000000001,0.5168
+41,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 2,0.412,0.0824,0.5167999999999999
 42,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 3,0.5295,0.1059,0.5168
 43,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 4,0.5843,0.11686,0.5168
-41,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 2,0.412,0.0824,0.5167999999999999
 44,COL,Latin America and the Caribbean,Upper middle income countries,Colombia,2018.0,Quintile 5,0.7525,0.1505,0.5167999999999999
 30,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Quintile 1,0.2772,0.05544,0.48386
-34,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Quintile 5,0.7457,0.14914,0.48386
 31,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Quintile 2,0.3681,0.07361999999999999,0.48385999999999996
 32,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Quintile 3,0.4564,0.09128,0.48385999999999996
 33,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Quintile 4,0.5719,0.11438,0.48385999999999996
-108,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Quintile 4,0.4207,0.08414,0.36522000000000004
+34,BRN,Eastern and South-eastern Asia,High income countries,Brunei Daruss.,2018.0,Quintile 5,0.7457,0.14914,0.48386
 105,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Quintile 1,0.1614,0.032279999999999996,0.36522
 106,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Quintile 2,0.2597,0.05194,0.36522
 107,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Quintile 3,0.3405,0.06810000000000001,0.36522
+108,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Quintile 4,0.4207,0.08414,0.36522000000000004
 109,PAN,Latin America and the Caribbean,High income countries,Panama,2018.0,Quintile 5,0.6438,0.12876,0.36522
 70,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Quintile 1,0.1839,0.03678,0.32004
+71,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Quintile 2,0.2388,0.047760000000000004,0.32003999999999994
 72,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Quintile 3,0.2845,0.05689999999999999,0.32004
 73,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Quintile 4,0.3673,0.07346,0.32004
 74,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Quintile 5,0.5257,0.10513999999999998,0.32004
-71,IDN,Eastern and South-eastern Asia,Upper middle income countries,Indonesia,2018.0,Quintile 2,0.2388,0.047760000000000004,0.32003999999999994
 50,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Quintile 1,0.0819,0.01638,0.21416000000000002
 51,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Quintile 2,0.1371,0.02742,0.21416000000000002
 52,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Quintile 3,0.1927,0.038540000000000005,0.21416000000000002
 53,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Quintile 4,0.2192,0.043840000000000004,0.21416000000000002
 54,DOM,Latin America and the Caribbean,Upper middle income countries,Dominican Rep.,2018.0,Quintile 5,0.4399,0.08798,0.21416000000000002
-2,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Quintile 3,0.18,0.036,0.20950000000000002
 0,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Quintile 1,0.1695,0.0339,0.2095
-3,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Quintile 4,0.2232,0.04464,0.2095
 1,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Quintile 2,0.1802,0.03604,0.20949999999999996
+2,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Quintile 3,0.18,0.036,0.20950000000000002
+3,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Quintile 4,0.2232,0.04464,0.2095
 4,DZA,Northern Africa and Western Asia,Lower middle income countries,Algeria,2015.0,Quintile 5,0.2946,0.05891999999999999,0.20949999999999996

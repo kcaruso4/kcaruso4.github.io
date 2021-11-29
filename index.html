@@ -302,8 +302,8 @@
                 q3 = parseFloat(d[2].rlevel2_m);
                 median = parseFloat(d[1].rlevel2_m);
                 iqr = q3 - q1;
-                min = Math.max(q1 - 1.5 * iqr, 0);
-                max = Math.min(q3 + 1.5 * iqr, 1);
+                min = q1 - 1.5 * iqr, 0;
+                max = q3 + 1.5 * iqr, 1;
                 return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
             })
             .entries(data)
@@ -342,17 +342,8 @@
             .data(boxData)
             .enter()
             .append("rect")
-            .attr("x", function(d)
-            {
-                // console.log(d.key)
-                // console.log(x(d.key)-boxWidth/2)
-                return(x(d.key)-boxWidth/2)
-            }
-            )
-            .attr("y", function(d){
-                // console.log(y(d.value.q3))
-                return(y(d.value.q3))
-                })
+            .attr("x", function(d) { return(x(d.key)-boxWidth/2) })
+            .attr("y", function(d){ return(y(d.value.q3))  })
             .attr("height", function(d){
                 return(y(d.value.q3)-y(d.value.q1))
                 })
