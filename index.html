@@ -64,7 +64,7 @@
 
             // stack the data
             var groups = ["Female", "Male"]
-            var groupId = ["f", "m"]
+            var groupId = [0,1]
             var stackedData = d3.stack()
             .keys(groupId)
             .value(function(d, key) {
@@ -77,13 +77,12 @@
             var mouseover = function(d) {
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
-                var subgroupValue = d.data[subgroupName];
-
+                console.log(subgroupName)
                 //reduce opacity of all other rect to 0.2
                 d3.selectAll(".myRect").style("opacity", 0.2)
 
                 //highlight all that are in the subgroup with opacity 1
-                d3.selectAll("."+subgroupName).style("opacity", 1)
+                d3.selectAll("."+ groups[subgroupName]).style("opacity", 1)
             }
 
             // when no hovering
@@ -101,7 +100,7 @@
             .append("g")
             .attr("fill", function(d) { return color(d.key); })
             .attr("class", function(d){ 
-                return "myRect " + d.key })
+                return "myRect " + groups[d.key] })
             .selectAll("rect")
             // enter a second time = loop subgroup per subgroup to add all rectangles
             .data(function(d) { return d; })
