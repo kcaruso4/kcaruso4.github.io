@@ -59,15 +59,22 @@
 
             var dataAgg = d3.nest()
             .key(function(d) {return d.country})
+            .map(data, function(d) {return (d.rlevel2_m_prop_of_total)}).keys()
             .entries(data);
 
             console.log(dataAgg)
 
             // stack the data
-            // var groups = ["Female", "Male"]
-            // var groupId = [1,2]
-            // var stackedData = d3.stack()
-            // .keys(groupId)
+            var groups = ["Female", "Male"]
+            var groupId = [1,2]
+            var stackedData = d3.stack()
+            .keys(groupId)
+            .value(function(d, key) {
+                return d.values[key].n
+            })
+            (dataAgg)
+
+            console.log(stackedData)
 
             
 
