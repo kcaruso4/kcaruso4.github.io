@@ -290,13 +290,22 @@
         d3.csv("sex_reading.csv", function(data) {
 
             // compute quartiles, median, IQR, min, and max for each country
-            var dataAgg = d3.nest()
+            var boxData = d3.nest()
             .key(function(d) {return d.country})
             .rollup(function(d) {
-                console.log(d)
-
+                console.log(d);
+                q1 = d[0].rlevel2_m;
+                q3 = d[2].rlevel2_m;
+                median = d[1].rlevel2_m;
+                iqr = q3 - q1;
+                min = q1 - 1.5 * iqr;
+                max = q3 + 1.5 * iqr;
+                console.log({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
+                return  ({q1: q1, median: median, q3: q3, interQuantileRange: iqr, min: min, max: max})
             })
             .entires(data)
+
+            console.log(boxData)
 
         //     //subgroups 
         //     var subgroups = [0,1]
