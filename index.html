@@ -256,11 +256,11 @@
             .enter()
             .append("g")
             .attr("transform", function(d) { return "translate(" + x(d.group) + ",0)"; })
-            .attr("fill", function(d) { return color(d.key); })
             .attr("class", function(d){ 
                 return "mySecondRect " + groups[d.key] })
             .selectAll("rect")
-            .data(function(d) { return d; })
+            .data(function(d) { console.log(d)
+            return d; })
             .enter().append("rect")
                 .attr("x", function(d) { return x(d.data.key); })
                 .attr("y", function(d) { return y(d[1].comp_lowsec_1524_m_prop_of_total); })
