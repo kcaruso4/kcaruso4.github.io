@@ -51,6 +51,3 @@ index_new,iso_code,region_group,income_group,country,year,Location,rlevel2_m,rle
 7,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Rural,0.0685,0.2969
 10,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Urban,0.2503,0.29190000000000005
 11,NER,Sub-Saharan Africa,Low income countries,Niger,2014.0,Rural,0.0416,0.29190000000000005
-39,MAC,Eastern and South-eastern Asia,High income countries,"Macao, China",2018.0,Urban,0.8922,0.0
-38,LUX,Europe and Northern America,High income countries,Luxembourg,2018.0,Urban,0.7071,0.0
-54,LIE,Europe and Northern America,High income countries,Liechtenstein,2012.0,Urban,0.8762,0.0
