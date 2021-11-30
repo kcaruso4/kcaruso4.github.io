@@ -2,18 +2,43 @@
 
 <html>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <h1 class="inGreen">
-        Test Landing Page
+    <h2 style="color:blue">
+        A view of global educational disparities along the lines of gender, urban/rural divide, and wealth
     </h1>
 
     <div id="wrapper">
         
+        <h3 style="color:blue">
+            Global secondary education completion rates by gender
+        </h3>
+        
+        <div id="sex_comp">
+            <p>This chart is related to sex and percentage of young people aged 15-24 years, who have completed lower secondary school </p>
+        </div>
+        
+        <h3 style="color:blue">
+            Global lower secondary school reading achievement rates by gender
+        </h3>
+        
         <div id="sex_reading">
             <p>This chart is related to sex and the learning achievement in reading (end of lower secondary) </p>
         </div>
+        
+        <h3 style="color:blue">
+            Global secondary education completion rates by urban/rural divide
+        </h3>
     
-        <div id="sex_comp">
-            <p>This chart is related to sex and the lower secondary education completion rate </p>
+        <div id="loc_comp">
+            <p>This chart is related to urban/rural location and percentage of young people aged 15-24 years, who have completed lower secondary school </p>
+        </div>
+        
+        <h3 style="color:blue">
+            Global lower secondary school reading achievement rates by urban/rural divide
+        </h3>
+        
+        
+        <div id="loc_reading">
+            <p>This chart is related to urban/rural location and the learning achievement in reading (end of lower secondary)</p>
         </div>
     </div>
    
@@ -25,6 +50,139 @@
         var margin = {top: 10, right: 30, bottom: 70, left: 50},
             width = 900 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
+        
+        
+        
+         // Sex comp
+        var svg_sex_comp = d3.select("#sex_comp")
+        .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        d3.csv("sex_comp.csv", function(data) {
+            // creating tooltip 
+            var tooltip_sex_comp = d3.select("#sex_comp")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            .style("padding", "10px")
+
+            //subgroups 
+            var subgroups_loc7 = [0,1]
+
+            var groups_loc7 = d3.map(data, function(d) {return (d.country)}).keys()
+
+            // x axis
+            var x = d3.scaleBand()
+            .range([0, width])
+            .domain(groups_loc7)
+            .padding([0.2]);
+
+            svg_sex_comp.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .attr("transform", "translate(-10, 0)rotate(-45)")
+            .style("text-anchor", "end");
+
+            
+            // y axis
+            var y = d3.scaleLinear()
+            .domain([0, 2])
+            .range([height, 0]);
+            svg_sex_comp.append("g")
+            .call(d3.axisLeft(y));
+
+            // color
+            var color = d3.scaleOrdinal()
+            .domain(subgroups_loc7)
+            .range(d3.schemeSet2)
+
+            var dataAgg_loc7 = d3.nest()
+            .key(function(d) {return d.country})
+            .entries(data);
+
+            // stack the data
+            var groups_loc7 = ["Rural", "Urban"]
+            var groupId_loc7 = [0,1]
+            var stackedData_loc7 = d3.stack()
+            .keys(groupId_loc7)
+            .value(function(d, key) {
+                console.log(d)
+                return d.values[key].comp_lowsec_1524_m
+            })
+            (dataAgg_loc7)
+
+            // highlight a specific subgroup when hovered and initalizing a tooltip 
+            var mouseover = function(d) {
+                //which group are we hovering over
+                var subgroupName = d3.select(this.parentNode).datum().key;
+                var subgroupValue = d.data.values[subgroupName].comp_lowsec_1524_m;
+                tooltip_sex_comp
+                .html("Country: " + d.data.key + "<br>"  + "Value: " + subgroupValue)
+                .style("opacity", 1)
+                // //reduce opacity of all other rect to 0.2
+                d3.selectAll(".myRect_loc7").style("opacity", 0.2)
+
+                // //highlight all that are in the subgroup with opacity 1
+                d3.selectAll("."+ groups_loc7[subgroupName]).style("opacity", 1)
+            }
+
+            var mousemove = function(d) {
+                tooltip_sex_comp
+                .style("left", (d3.mouse(this)[0] + 90) + "px") 
+                .style("top", (d3.mouse(this)[1]) + "px")
+            }
+
+            // when no hovering
+            var mouseleave = function(d) {
+                tooltip.style("opacity", 0)
+                d3.selectAll(".myRect_loc7").style("opacity", 0.8)
+            }
+
+            //bars
+            svg_sex_comp.append("g")
+            .selectAll("g")
+            .data(stackedData_loc7)
+            .enter()
+            .append("g")
+            .attr("fill", function(d) { return color(d.key); })
+            .attr("class", function(d){ 
+                return "myRect_loc7 " + groups_loc7[d.key] })
+            .selectAll("rect")
+            .data(function(d) { return d; })
+             .enter().append("rect")
+                .attr("x", function(d) { return x(d.data.key); })
+                .attr("y", function(d) { return y(d[1]); })
+                .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+                .attr("width",x.bandwidth())
+                .attr("stroke", "grey")
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave)
+
+            //legend 
+            svg_sex_comp.selectAll("mylables")
+            .data(subgroups_loc7)
+            .enter()
+            .append("text")
+            .attr("x", 700)
+            .attr("y", function(d,i){ return 50 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+            .style("fill", function(d){ return color(d)})
+            .text(function(d){ return groups_loc7[d]})
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle")
+        })
+        
+        
+        
 
 
         // append the svg object to the body of the page
@@ -156,16 +314,16 @@
 
 
 
+  
 
 
 
 
 
-
-        //START OF SECOND CHART
+        //URBAN RURAL COMPLETION
 
         // append the svg object to the body of the page
-        var svgTwo = d3.select("#sex_comp")
+        var svgTwo = d3.select("#loc_comp")
             .append("svg")
             .attr("width", width + margin.left + margin.right + 100)
             .attr("height", height + margin.top + margin.bottom)
@@ -173,9 +331,9 @@
             .attr("transform",
                 "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.csv("sex_comp.csv", function(data) {
+        d3.csv("loc_comp.csv", function(data) {
 
-            var tooltipSecond = d3.select("#sex_reading")
+            var tooltipSecond = d3.select("#loc_comp")
             .append("div")
             .style("opacity", 0)
             .attr("class", "tooltip")
@@ -186,7 +344,7 @@
             .style("padding", "10px")
 
             //subgroups 
-            var subgroups = ["Female", "Male"]
+            var subgroups = ["Rural", "Urban"]
             var subgroupId = [0,1]
 
             var groups = d3.map(data, function(d) {return (d.country)}).keys()
@@ -232,7 +390,7 @@
                 //which group are we hovering over
                 var subgroupName = d3.select(this.parentNode).datum().key;
                 tooltipSecond
-                .html("Country: " + subgroupName + "<br>" + "Value: " + d.value + "<br>" + "Sex: " + d.key)
+                .html("Country: " + subgroupName + "<br>" + "Value: " + d.value + "<br>" + "Location: " + d.key)
                 .style("opacity", 1)
                 // //reduce opacity of all other rect to 0.2
                 d3.selectAll(".mySecondRect").style("opacity", 0.2)
@@ -267,7 +425,7 @@
             .data(function(d) { 
                 var finalData = [];
                 d.values.forEach(ele => {
-                    finalData.push({key: ele.Sex, value: ele.comp_lowsec_1524_m})
+                    finalData.push({key: ele.Location, value: ele.comp_lowsec_1524_m})
                 });
                 return finalData;
             })
@@ -294,19 +452,168 @@
             .attr("text-anchor", "left")
             .style("alignment-baseline", "middle")
         })
+        
+        
+        
+         //URBAN RURAL READING
+
+        // append the svg object to the body of the page
+        var svgThree = d3.select("#loc_reading")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right + 100)
+            .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        d3.csv("loc_reading.csv", function(data) {
+
+            var tooltipThird = d3.select("#loc_reading")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            .style("padding", "10px")
+
+            //subgroups 
+            var subgroups = ["Rural", "Urban"]
+            var subgroupId = [0,1]
+
+            var groups = d3.map(data, function(d) {return (d.country)}).keys()
+
+            // x axis
+            var x = d3.scaleBand()
+            .range([0, width])
+            .domain(groups)
+            .padding([0.2]);
+
+            svgThree.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .attr("transform", "translate(-10, 0)rotate(-45)")
+            .style("text-anchor", "end");
+
+        
+            // y axis
+            var y = d3.scaleLinear()
+            .domain([0, 1])
+            .range([height, 0]);
+            svgThree.append("g")
+            .call(d3.axisLeft(y));
+
+            //scale for sub group position
+            var xSubgroup = d3.scaleBand()
+            .domain(subgroups)
+            .range([0, x.bandwidth()])
+            .padding([0.05])
+
+            // color
+            var color = d3.scaleOrdinal()
+            .domain(subgroups)
+            .range(d3.schemeSet2)
+
+            var dataAgg = d3.nest()
+            .key(function(d) {return d.country})
+            .entries(data);
+
+            // highlight a specific subgroup when hovered 
+            var mouseover = function(d) {
+                //which group are we hovering over
+                var subgroupName = d3.select(this.parentNode).datum().key;
+                tooltipThird
+                .html("Country: " + subgroupName + "<br>" + "Value: " + d.value + "<br>" + "Location: " + d.key)
+                .style("opacity", 1)
+                // //reduce opacity of all other rect to 0.2
+                d3.selectAll(".myThirdRect").style("opacity", 0.2)
+
+                // //highlight all that are in the subgroup with opacity 1
+                d3.selectAll("." + subgroupName.replace(/\s+/g, '')).style("opacity", 1)
+            }
+
+            // when no hovering
+            var mouseleave = function(d) {
+                d3.selectAll(".myThirdRect").style("opacity", 0.8)
+                tooltipThird
+                .style("opacity", 0)
+            }
+
+            var mousemove = function(d) {
+                tooltipThird
+                .style("left", (d3.mouse(this)[0] + 90) + "px") 
+                .style("top", (d3.mouse(this)[1]) + "px")
+            }
+
+            //bars
+            svgThree.append("g")
+            .selectAll("g")
+            .data(dataAgg)
+            .enter()
+            .append("g")
+            .attr("transform", function(d) { return "translate(" + x(d.key) + ",0)"; })
+            .attr("class", function(d){ 
+                return "myThirdRect " + d.key.replace(/\s+/g, '') })
+            .selectAll("rect")
+            .data(function(d) { 
+                var finalData = [];
+                d.values.forEach(ele => {
+                    finalData.push({key: ele.Location, value: ele.rlevel2_m})
+                });
+                return finalData;
+            })
+            .enter().append("rect")
+                .attr("x", function(d) { return xSubgroup(d.key); })
+                .attr("y", function(d) { return y(d.value); })
+                .attr("height", function(d) { return height - y(d.value); })
+                .attr("width",xSubgroup.bandwidth())
+                .attr("fill", function(d) { return color(d.key); })
+            .on("mouseover", mouseover)
+            .on("mouseleave", mouseleave)
+            .on("mousemove", mousemove)
+
+
+            //legend 
+            svgThree.selectAll("mylables")
+            .data(subgroupId)
+            .enter()
+            .append("text")
+            .attr("x", 700)
+            .attr("y", function(d,i){ return 50 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
+            .style("fill", function(d){ return color(subgroups[d])})
+            .text(function(d){ return subgroups[d]})
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle")
+        })
+        
+
+
 
     </script>
 
 
     <div>
-        
-        <div id="wealth_reading">
-            <p>Wealth and the learning achievement in reading (end of lower secondary) </p>
-        </div>
+        <h3 style="color:blue">
+            Global secondary education completion rates by wealth
+        </h3>
+ 
         
         <div id="wealth_comp">
-            <p>Wealth and the lower secondary education completion rate </p>
+            <p>This chart is related to wealth (quintiles) and percentage of young people aged 15-24 years, who have completed lower secondary school </p>
         </div>
+        
+        <h3 style="color:blue">
+            Global lower secondary school reading achievement rates by wealth 
+        </h3>
+        
+        <div id="wealth_reading">
+            <p>This chart is related to wealth (quintiles) and the learning achievement in reading (end of lower secondary)</p>
+        </div>
+        
+        
+    
     </div>
     
 
@@ -543,6 +850,8 @@
             .attr("text-anchor", "left")
             .style("alignment-baseline", "middle")
         })
+        
+
 
     </script>
 </html>
